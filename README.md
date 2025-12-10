@@ -1,10 +1,5 @@
 # Offroad Semantic Scene Segmentation 🚙💨
 
-> **Hackathon Submission 2024**  
-> *Robust Terrain Analysis using DINOv2 Backbone & U-Net*
-
-![Project Banner](Visual_Report/Visual_Report_1_0000612.png)
-
 ## 📌 Overview
 Self-driving cars are great on highways, but off-road environments are a nightmare. There are no lane markings, no stop signs, and "drivable path" is distinct from "tall grass" or "mud". 
 
