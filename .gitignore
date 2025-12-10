@@ -6,8 +6,8 @@ Offroad_Segmentation_testImages/
 Offroad_Segmentation_Scripts/
 
 # Model Checkpoints (Large files)
-checkpoints/
-*.pth
+# checkpoints/ <-- Commented out to allow upload
+# *.pth
 
 # Python
 __pycache__/

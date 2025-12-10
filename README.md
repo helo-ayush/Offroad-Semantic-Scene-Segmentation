@@ -33,6 +33,13 @@ We evaluated the model on **1002 Unseen Test Images**. This wasn't just a "it lo
 *   **Inference Speed**: ~20ms (Real-time capable)
 *   **Peak Accuracy**: >92% on clear terrain
 
+### Training Dynamics (Model Learning)
+We tracked the model's performance over 5 epochs. The DINOv2 backbone enabled rapid convergence.
+| Loss Curve | IoU Curve |
+|:---:|:---:|
+| ![Loss](Visual_Report/training_curves.png) | ![IoU](Visual_Report/iou_curves.png) |
+| *Validation loss stabilized at 0.50* | *mIoU steadily improved to 0.72* |
+
 ### quantitative Analysis
 Most models fail when the terrain gets messy. Ours maintains high confidence even in complex scenes.
 
