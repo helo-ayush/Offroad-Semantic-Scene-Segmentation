@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+matplotlib
+numpy
+pillow
+opencv-python
+tqdm
+albumentations
+datasets
+huggingface_hub

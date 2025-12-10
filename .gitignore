@@ -1,0 +1,22 @@
+# Datasets
+Offroad_Segmentation_Training_Dataset/
+Offroad_Segmentation_testImages/
+
+# Obsolete Scripts
+Offroad_Segmentation_Scripts/
+
+# Model Checkpoints (Large files)
+checkpoints/
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# System
+Thumbs.db
+Desktop.ini

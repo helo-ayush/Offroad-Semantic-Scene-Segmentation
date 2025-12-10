@@ -1,0 +1,20 @@
+{
+    "model_name": "UNet_ResNet34_TransferLearning",
+    "dataset": "RUGD",
+    "input_size": [
+        252,
+        252
+    ],
+    "classes": 8,
+    "epochs": 5,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "device": "cuda",
+    "augmentations": {
+        "horizontal_flip_prob": 0.5,
+        "brightness_contrast_prob": 0.2,
+        "normalization": "ImageNet"
+    }
+}
