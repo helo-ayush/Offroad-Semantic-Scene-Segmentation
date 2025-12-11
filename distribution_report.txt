@@ -1,0 +1,20 @@
+Class Distribution:
+Class Name      | Pixels       | Percentage
+---------------------------------------------
+Background      | 923838967    | 62.38%
+Trees           | 18376381     | 1.24%
+Lush Bushes     | 19532675     | 1.32%
+Dry Grass       | 32596805     | 2.20%
+Dry Bushes      | 843453       | 0.06%
+Ground Clutter  | 3206066      | 0.22%
+Logs            | 339161       | 0.02%
+Rocks           | 3852074      | 0.26%
+Landscape       | 95877823     | 6.47%
+Sky             | 382605395    | 25.83%
+
+Calculated Loss Weights (Inverse Frequency):
+[2.22908998e-03 1.12063418e-01 1.05429496e-01 6.31755204e-02
+ 2.44153230e+00 6.42319759e-01 6.07178924e+00 5.34600230e-01
+ 2.14785870e-02 5.38236053e-03]
+
+WEIGHTS_TENSOR = torch.tensor([0.0022, 0.1121, 0.1054, 0.0632, 2.4415, 0.6423, 6.0718, 0.5346, 0.0215, 0.0054]).to(device)

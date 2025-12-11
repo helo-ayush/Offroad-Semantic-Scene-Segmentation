@@ -28,7 +28,19 @@ class OffroadModel(nn.Module):
         self.n_classes = n_classes
         
         print("Loading DINOv2 backbone...")
-        self.backbone = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14')
+        try:
+            # Try online load first (checks for updates)
+            self.backbone = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14')
+        except Exception as e:
+            print(f"Online load failed ({e}), trying local cache...")
+            # Fallback to local cache if GitHub is down
+            hub_dir = os.path.join(os.path.expanduser("~"), ".cache", "torch", "hub", "facebookresearch_dinov2_main")
+            if os.path.exists(hub_dir):
+                self.backbone = torch.hub.load(hub_dir, 'dinov2_vits14', source='local')
+                print(">> Loaded DINOv2 from local cache!")
+            else:
+                raise RuntimeError("Could not load DINOv2 from online or local cache.") from e
+
         self.backbone.eval()
         
         self.n_embedding = 384 # embedding dim for vits14

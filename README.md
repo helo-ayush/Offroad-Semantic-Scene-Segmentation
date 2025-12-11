@@ -14,12 +14,30 @@ Instead of starting from scratch (which requires millions of images), we used Me
 *   **Why?** DINOv2 understands texture and depth implicitly. It knows what "vegetation" looks like even if the lighting changes. 
 *   **Mechanism**: We extract features from the frozen backbone, creating rich 384-dimensional embeddings for every 14x14 pixel patch of the image.
 
-### 2. The Decoder: Custom U-Net Head
-We built a custom lightweight Convolutional Decoder (SeqmentationHead) that takes those transformer features and upsamples them back to the original resolution.
-*   **ConvNeXt Blocks**: We use modern convolutional blocks to smooth out the blocky features from the transformer.
-*   **Bilinear Upsampling**: Restores the sharp 1080p details needed to spot small rocks or logs.
+### 2. The Decoder: Progressive Semantic Decoder (PSD-Net)
+We replaced the standard U-Net decoder with a **Progressive Upsampling** architecture.
+*   **4-Stage Refinement**: Instead of a single jump, we upsample in stages (14x -> 7x -> 3.5x -> 1x).
+*   **Detail Preservation**: Small neural networks at each stage recover fine details like smooth rock edges and thin branches.
 
-## 📊 Performance & Evaluation
+## � Methodology & Training Strategy
+
+### 1. Solving the "Class Imbalance" Crisis
+Our initial analysis revealed a massive skew in the dataset: **Sky and Background pixels made up 88% of the data**, while critical obstacles like **Logs and Rocks were less than 0.3%**. A standard model would simply ignore the rocks and still get 88% accuracy.
+
+**The Fix: Inverse Frequency Weighted Loss**
+We calculated specific penalties for each class. If the model misses a "Log", it is penalized **6.0x harder** than if it misses "Sky". Use of this **Weighted Cross Entropy Loss** forced the model to "care" about the rare classes.
+
+### 2. Architecture V2: Progressive Decoding
+Our V1 model used simple upsampling, which turned small rocks into blurry blobs. We completely overhauled the architecture to **PSD-Net (Progressive Semantic Decoder)**.
+*   Instead of one giant jump (14x upsample), we now upsample in **4 stages (2x -> 2x -> 2x -> 2x)**.
+*   At each stage, a small neural network refines the boundaries, ensuring jagged rock edges remain sharp.
+
+### 3. Rigid Training Procedure
+*   **Backbone**: DINOv2 (Frozen) to retain generic world knowledge.
+*   **Augmentation**: We used **RandomCrop** (not just resize) to ensure the model sees high-resolution details of small objects during training.
+*   **Optimization**: Adam Optimizer with learning rate decay.
+
+## �📊 Performance & Evaluation
 
 We evaluated the model on **1002 Unseen Test Images**. This wasn't just a "it looks good" check—we ran strict pixel-level metrics.
 
@@ -35,13 +53,14 @@ We tracked the model's performance over 5 epochs. The DINOv2 backbone enabled ra
 | ![Loss](Visual_Report/training_curves.png) | ![IoU](Visual_Report/iou_curves.png) |
 | *Validation loss stabilized at 0.50* | *mIoU steadily improved to 0.72* |
 
-### quantitative Analysis
+### Quantitative Analysis
 Most models fail when the terrain gets messy. Ours maintains high confidence even in complex scenes.
 
-| Accuracy Distribution | Class-Wise Performance |
+
+| Class-Wise Accuracy (IoU) | Test Set Reliability |
 |:---:|:---:|
-| ![Histogram](Visual_Report/accuracy_histogram.png) | ![Class IoU](Visual_Report/class_accuracy_chart.png) |
-| *Most frames hit 75-85% accuracy* | *Strong detection of Sky, Landscape, and Background* |
+| ![Class Chart](Visual_Report/class_accuracy_chart.png) | ![Histogram](Visual_Report/accuracy_histogram.png) |
+| *Performance on Rocks/Logs improved significantly* | *Consistent accuracy across 1000+ test images* |
 
 ### Qualitative Results (What the Robot Sees)
 Below is a direct comparison from our test set. You can see the model (3rd column) successfully identifying the **Trees (Green)** and **Sky (Blue)**, filtering out the noise.

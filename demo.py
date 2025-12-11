@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.patches as mpatches
 from PIL import Image
-from src.model import UNet
+from src.model_refine import ProgressiveSemanticSegmenter as UNet # Alias for compatibility
 from src.utils import CLASS_DEFINITIONS
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
@@ -51,7 +51,8 @@ class OffRoadDemoApp:
 
     def load_model(self):
         print(f"Loading Model on {self.device}...")
-        model = UNet(n_channels=3, n_classes=len(CLASS_DEFINITIONS))
+        # ProgressiveSemanticSegmenter only needs n_classes
+        model = UNet(n_classes=len(CLASS_DEFINITIONS))
         if os.path.exists(CHECKPOINT_PATH):
             model.load_state_dict(torch.load(CHECKPOINT_PATH, map_location=self.device))
         else:

@@ -1,1025 +1,1024 @@
-TEST DATASET EVALUATION REPORT
+Evaluation of PSD-Net (Progressive Semantic Decoder)
+--------------------------------------------------
+
+Image: 0000060.png | Accuracy: 62.93%
+Image: 0000061.png | Accuracy: 64.26%
+Image: 0000062.png | Accuracy: 56.80%
+Image: 0000063.png | Accuracy: 59.40%
+Image: 0000064.png | Accuracy: 53.87%
+Image: 0000065.png | Accuracy: 56.58%
+Image: 0000066.png | Accuracy: 58.47%
+Image: 0000067.png | Accuracy: 57.10%
+Image: 0000068.png | Accuracy: 62.15%
+Image: 0000069.png | Accuracy: 62.13%
+Image: 0000070.png | Accuracy: 68.18%
+Image: 0000071.png | Accuracy: 68.64%
+Image: 0000072.png | Accuracy: 64.17%
+Image: 0000073.png | Accuracy: 62.54%
+Image: 0000074.png | Accuracy: 61.10%
+Image: 0000075.png | Accuracy: 57.31%
+Image: 0000076.png | Accuracy: 52.82%
+Image: 0000077.png | Accuracy: 55.58%
+Image: 0000078.png | Accuracy: 52.40%
+Image: 0000079.png | Accuracy: 52.50%
+Image: 0000080.png | Accuracy: 52.18%
+Image: 0000081.png | Accuracy: 50.23%
+Image: 0000082.png | Accuracy: 48.01%
+Image: 0000083.png | Accuracy: 46.67%
+Image: 0000084.png | Accuracy: 51.55%
+Image: 0000085.png | Accuracy: 52.49%
+Image: 0000086.png | Accuracy: 56.87%
+Image: 0000087.png | Accuracy: 57.09%
+Image: 0000088.png | Accuracy: 54.25%
+Image: 0000089.png | Accuracy: 46.95%
+Image: 0000090.png | Accuracy: 43.77%
+Image: 0000091.png | Accuracy: 46.01%
+Image: 0000092.png | Accuracy: 48.48%
+Image: 0000093.png | Accuracy: 45.34%
+Image: 0000094.png | Accuracy: 47.80%
+Image: 0000095.png | Accuracy: 43.81%
+Image: 0000096.png | Accuracy: 41.96%
+Image: 0000097.png | Accuracy: 43.11%
+Image: 0000098.png | Accuracy: 46.85%
+Image: 0000099.png | Accuracy: 53.35%
+Image: 0000100.png | Accuracy: 55.96%
+Image: 0000101.png | Accuracy: 61.47%
+Image: 0000102.png | Accuracy: 62.57%
+Image: 0000103.png | Accuracy: 61.43%
+Image: 0000104.png | Accuracy: 59.27%
+Image: 0000105.png | Accuracy: 53.37%
+Image: 0000106.png | Accuracy: 48.90%
+Image: 0000107.png | Accuracy: 51.63%
+Image: 0000108.png | Accuracy: 50.46%
+Image: 0000109.png | Accuracy: 60.55%
+Image: 0000110.png | Accuracy: 61.30%
+Image: 0000111.png | Accuracy: 57.97%
+Image: 0000112.png | Accuracy: 53.51%
+Image: 0000113.png | Accuracy: 54.95%
+Image: 0000114.png | Accuracy: 56.68%
+Image: 0000115.png | Accuracy: 57.80%
+Image: 0000116.png | Accuracy: 61.57%
+Image: 0000117.png | Accuracy: 61.25%
+Image: 0000118.png | Accuracy: 59.29%
+Image: 0000119.png | Accuracy: 62.59%
+Image: 0000120.png | Accuracy: 61.21%
+Image: 0000121.png | Accuracy: 64.13%
+Image: 0000122.png | Accuracy: 63.72%
+Image: 0000123.png | Accuracy: 64.59%
+Image: 0000124.png | Accuracy: 57.54%
+Image: 0000125.png | Accuracy: 57.81%
+Image: 0000126.png | Accuracy: 57.04%
+Image: 0000127.png | Accuracy: 56.25%
+Image: 0000128.png | Accuracy: 49.42%
+Image: 0000129.png | Accuracy: 58.85%
+Image: 0000130.png | Accuracy: 53.30%
+Image: 0000131.png | Accuracy: 55.61%
+Image: 0000132.png | Accuracy: 49.51%
+Image: 0000133.png | Accuracy: 44.17%
+Image: 0000134.png | Accuracy: 47.89%
+Image: 0000135.png | Accuracy: 44.64%
+Image: 0000136.png | Accuracy: 50.20%
+Image: 0000137.png | Accuracy: 57.72%
+Image: 0000138.png | Accuracy: 58.44%
+Image: 0000139.png | Accuracy: 53.89%
+Image: 0000140.png | Accuracy: 55.68%
+Image: 0000141.png | Accuracy: 55.33%
+Image: 0000142.png | Accuracy: 57.78%
+Image: 0000143.png | Accuracy: 63.92%
+Image: 0000144.png | Accuracy: 66.50%
+Image: 0000145.png | Accuracy: 60.42%
+Image: 0000146.png | Accuracy: 62.56%
+Image: 0000147.png | Accuracy: 60.07%
+Image: 0000148.png | Accuracy: 58.52%
+Image: 0000149.png | Accuracy: 53.12%
+Image: 0000150.png | Accuracy: 53.81%
+Image: 0000151.png | Accuracy: 53.74%
+Image: 0000152.png | Accuracy: 52.95%
+Image: 0000153.png | Accuracy: 50.64%
+Image: 0000154.png | Accuracy: 54.70%
+Image: 0000155.png | Accuracy: 55.20%
+Image: 0000156.png | Accuracy: 52.80%
+Image: 0000157.png | Accuracy: 57.56%
+Image: 0000158.png | Accuracy: 63.68%
+Image: 0000159.png | Accuracy: 60.97%
+Image: 0000160.png | Accuracy: 61.22%
+Image: 0000161.png | Accuracy: 59.44%
+Image: 0000162.png | Accuracy: 58.14%
+Image: 0000163.png | Accuracy: 52.49%
+Image: 0000164.png | Accuracy: 50.74%
+Image: 0000165.png | Accuracy: 44.97%
+Image: 0000166.png | Accuracy: 47.02%
+Image: 0000167.png | Accuracy: 48.02%
+Image: 0000168.png | Accuracy: 50.85%
+Image: 0000169.png | Accuracy: 51.69%
+Image: 0000170.png | Accuracy: 58.26%
+Image: 0000171.png | Accuracy: 60.80%
+Image: 0000172.png | Accuracy: 61.23%
+Image: 0000173.png | Accuracy: 62.51%
+Image: 0000174.png | Accuracy: 58.17%
+Image: 0000175.png | Accuracy: 61.51%
+Image: 0000176.png | Accuracy: 64.70%
+Image: 0000177.png | Accuracy: 63.16%
+Image: 0000178.png | Accuracy: 60.78%
+Image: 0000179.png | Accuracy: 59.64%
+Image: 0000180.png | Accuracy: 57.92%
+Image: 0000181.png | Accuracy: 65.30%
+Image: 0000182.png | Accuracy: 68.21%
+Image: 0000183.png | Accuracy: 66.38%
+Image: 0000184.png | Accuracy: 71.80%
+Image: 0000185.png | Accuracy: 69.94%
+Image: 0000186.png | Accuracy: 70.49%
+Image: 0000187.png | Accuracy: 67.50%
+Image: 0000188.png | Accuracy: 57.74%
+Image: 0000189.png | Accuracy: 54.74%
+Image: 0000190.png | Accuracy: 61.09%
+Image: 0000191.png | Accuracy: 60.18%
+Image: 0000192.png | Accuracy: 53.17%
+Image: 0000193.png | Accuracy: 52.08%
+Image: 0000194.png | Accuracy: 51.55%
+Image: 0000195.png | Accuracy: 50.51%
+Image: 0000196.png | Accuracy: 53.11%
+Image: 0000197.png | Accuracy: 51.74%
+Image: 0000198.png | Accuracy: 50.05%
+Image: 0000199.png | Accuracy: 50.96%
+Image: 0000200.png | Accuracy: 52.97%
+Image: 0000201.png | Accuracy: 50.38%
+Image: 0000202.png | Accuracy: 48.54%
+Image: 0000203.png | Accuracy: 48.10%
+Image: 0000204.png | Accuracy: 57.90%
+Image: 0000205.png | Accuracy: 54.20%
+Image: 0000206.png | Accuracy: 62.07%
+Image: 0000207.png | Accuracy: 61.64%
+Image: 0000208.png | Accuracy: 62.23%
+Image: 0000209.png | Accuracy: 52.37%
+Image: 0000210.png | Accuracy: 51.92%
+Image: 0000211.png | Accuracy: 57.90%
+Image: 0000212.png | Accuracy: 58.82%
+Image: 0000213.png | Accuracy: 63.06%
+Image: 0000214.png | Accuracy: 56.57%
+Image: 0000215.png | Accuracy: 56.56%
+Image: 0000216.png | Accuracy: 58.06%
+Image: 0000217.png | Accuracy: 56.82%
+Image: 0000218.png | Accuracy: 55.74%
+Image: 0000219.png | Accuracy: 57.30%
+Image: 0000220.png | Accuracy: 54.03%
+Image: 0000221.png | Accuracy: 63.76%
+Image: 0000222.png | Accuracy: 68.92%
+Image: 0000223.png | Accuracy: 60.08%
+Image: 0000224.png | Accuracy: 53.72%
+Image: 0000225.png | Accuracy: 50.52%
+Image: 0000226.png | Accuracy: 59.88%
+Image: 0000227.png | Accuracy: 64.05%
+Image: 0000228.png | Accuracy: 70.65%
+Image: 0000229.png | Accuracy: 72.02%
+Image: 0000230.png | Accuracy: 66.24%
+Image: 0000231.png | Accuracy: 67.68%
+Image: 0000232.png | Accuracy: 60.79%
+Image: 0000233.png | Accuracy: 53.83%
+Image: 0000234.png | Accuracy: 52.88%
+Image: 0000235.png | Accuracy: 49.95%
+Image: 0000236.png | Accuracy: 48.77%
+Image: 0000237.png | Accuracy: 45.90%
+Image: 0000238.png | Accuracy: 48.94%
+Image: 0000239.png | Accuracy: 46.65%
+Image: 0000240.png | Accuracy: 53.08%
+Image: 0000241.png | Accuracy: 57.71%
+Image: 0000242.png | Accuracy: 52.40%
+Image: 0000243.png | Accuracy: 61.46%
+Image: 0000244.png | Accuracy: 57.56%
+Image: 0000245.png | Accuracy: 57.91%
+Image: 0000246.png | Accuracy: 65.18%
+Image: 0000247.png | Accuracy: 64.04%
+Image: 0000248.png | Accuracy: 56.29%
+Image: 0000249.png | Accuracy: 47.40%
+Image: 0000250.png | Accuracy: 46.24%
+Image: 0000251.png | Accuracy: 41.45%
+Image: 0000252.png | Accuracy: 46.93%
+Image: 0000253.png | Accuracy: 44.54%
+Image: 0000254.png | Accuracy: 49.61%
+Image: 0000255.png | Accuracy: 48.28%
+Image: 0000256.png | Accuracy: 47.03%
+Image: 0000257.png | Accuracy: 46.24%
+Image: 0000258.png | Accuracy: 50.16%
+Image: 0000259.png | Accuracy: 51.88%
+Image: 0000260.png | Accuracy: 61.77%
+Image: 0000261.png | Accuracy: 51.74%
+Image: 0000262.png | Accuracy: 50.91%
+Image: 0000263.png | Accuracy: 55.82%
+Image: 0000264.png | Accuracy: 55.44%
+Image: 0000265.png | Accuracy: 51.20%
+Image: 0000266.png | Accuracy: 42.83%
+Image: 0000267.png | Accuracy: 43.07%
+Image: 0000268.png | Accuracy: 41.78%
+Image: 0000269.png | Accuracy: 45.52%
+Image: 0000270.png | Accuracy: 50.58%
+Image: 0000271.png | Accuracy: 56.83%
+Image: 0000272.png | Accuracy: 70.36%
+Image: 0000273.png | Accuracy: 62.44%
+Image: 0000274.png | Accuracy: 63.01%
+Image: 0000275.png | Accuracy: 62.91%
+Image: 0000276.png | Accuracy: 60.58%
+Image: 0000277.png | Accuracy: 56.90%
+Image: 0000278.png | Accuracy: 48.29%
+Image: 0000279.png | Accuracy: 45.96%
+Image: 0000280.png | Accuracy: 51.33%
+Image: 0000281.png | Accuracy: 63.67%
+Image: 0000282.png | Accuracy: 65.76%
+Image: 0000283.png | Accuracy: 69.36%
+Image: 0000284.png | Accuracy: 66.16%
+Image: 0000285.png | Accuracy: 57.28%
+Image: 0000286.png | Accuracy: 59.34%
+Image: 0000287.png | Accuracy: 60.06%
+Image: 0000288.png | Accuracy: 52.52%
+Image: 0000289.png | Accuracy: 50.40%
+Image: 0000290.png | Accuracy: 48.39%
+Image: 0000291.png | Accuracy: 50.80%
+Image: 0000292.png | Accuracy: 47.65%
+Image: 0000293.png | Accuracy: 48.67%
+Image: 0000294.png | Accuracy: 49.14%
+Image: 0000295.png | Accuracy: 50.55%
+Image: 0000296.png | Accuracy: 48.80%
+Image: 0000297.png | Accuracy: 48.36%
+Image: 0000298.png | Accuracy: 49.20%
+Image: 0000299.png | Accuracy: 55.83%
+Image: 0000300.png | Accuracy: 54.59%
+Image: 0000301.png | Accuracy: 59.59%
+Image: 0000302.png | Accuracy: 57.25%
+Image: 0000303.png | Accuracy: 47.97%
+Image: 0000304.png | Accuracy: 47.71%
+Image: 0000305.png | Accuracy: 35.73%
+Image: 0000306.png | Accuracy: 34.11%
+Image: 0000307.png | Accuracy: 37.30%
+Image: 0000308.png | Accuracy: 44.51%
+Image: 0000309.png | Accuracy: 58.78%
+Image: 0000310.png | Accuracy: 61.84%
+Image: 0000311.png | Accuracy: 61.23%
+Image: 0000312.png | Accuracy: 60.75%
+Image: 0000313.png | Accuracy: 63.42%
+Image: 0000314.png | Accuracy: 56.95%
+Image: 0000315.png | Accuracy: 46.37%
+Image: 0000316.png | Accuracy: 51.27%
+Image: 0000317.png | Accuracy: 46.57%
+Image: 0000318.png | Accuracy: 47.45%
+Image: 0000319.png | Accuracy: 40.95%
+Image: 0000320.png | Accuracy: 45.04%
+Image: 0000321.png | Accuracy: 43.26%
+Image: 0000322.png | Accuracy: 44.92%
+Image: 0000323.png | Accuracy: 50.20%
+Image: 0000324.png | Accuracy: 54.03%
+Image: 0000325.png | Accuracy: 43.93%
+Image: 0000326.png | Accuracy: 47.92%
+Image: 0000327.png | Accuracy: 51.32%
+Image: 0000328.png | Accuracy: 55.75%
+Image: 0000329.png | Accuracy: 51.08%
+Image: 0000330.png | Accuracy: 44.18%
+Image: 0000331.png | Accuracy: 48.36%
+Image: 0000332.png | Accuracy: 54.89%
+Image: 0000333.png | Accuracy: 60.80%
+Image: 0000334.png | Accuracy: 64.23%
+Image: 0000335.png | Accuracy: 64.22%
+Image: 0000336.png | Accuracy: 57.11%
+Image: 0000337.png | Accuracy: 51.13%
+Image: 0000338.png | Accuracy: 55.99%
+Image: 0000339.png | Accuracy: 50.93%
+Image: 0000340.png | Accuracy: 46.78%
+Image: 0000341.png | Accuracy: 50.40%
+Image: 0000342.png | Accuracy: 57.24%
+Image: 0000343.png | Accuracy: 64.24%
+Image: 0000344.png | Accuracy: 62.95%
+Image: 0000345.png | Accuracy: 63.41%
+Image: 0000346.png | Accuracy: 59.32%
+Image: 0000347.png | Accuracy: 48.20%
+Image: 0000348.png | Accuracy: 54.56%
+Image: 0000349.png | Accuracy: 57.24%
+Image: 0000350.png | Accuracy: 53.15%
+Image: 0000351.png | Accuracy: 64.23%
+Image: 0000352.png | Accuracy: 63.21%
+Image: 0000353.png | Accuracy: 59.18%
+Image: 0000354.png | Accuracy: 70.99%
+Image: 0000355.png | Accuracy: 59.19%
+Image: 0000356.png | Accuracy: 55.82%
+Image: 0000357.png | Accuracy: 61.59%
+Image: 0000358.png | Accuracy: 64.74%
+Image: 0000359.png | Accuracy: 70.04%
+Image: 0000360.png | Accuracy: 77.31%
+Image: 0000361.png | Accuracy: 68.81%
+Image: 0000362.png | Accuracy: 68.82%
+Image: 0000363.png | Accuracy: 73.69%
+Image: 0000364.png | Accuracy: 77.20%
+Image: 0000365.png | Accuracy: 75.10%
+Image: 0000366.png | Accuracy: 70.06%
+Image: 0000367.png | Accuracy: 67.04%
+Image: 0000368.png | Accuracy: 61.80%
+Image: 0000369.png | Accuracy: 61.32%
+Image: 0000370.png | Accuracy: 64.85%
+Image: 0000371.png | Accuracy: 67.53%
+Image: 0000372.png | Accuracy: 61.81%
+Image: 0000373.png | Accuracy: 57.65%
+Image: 0000374.png | Accuracy: 53.57%
+Image: 0000375.png | Accuracy: 58.70%
+Image: 0000376.png | Accuracy: 56.03%
+Image: 0000377.png | Accuracy: 53.47%
+Image: 0000378.png | Accuracy: 50.25%
+Image: 0000379.png | Accuracy: 53.63%
+Image: 0000380.png | Accuracy: 52.65%
+Image: 0000381.png | Accuracy: 54.12%
+Image: 0000382.png | Accuracy: 67.31%
+Image: 0000383.png | Accuracy: 57.57%
+Image: 0000384.png | Accuracy: 62.47%
+Image: 0000385.png | Accuracy: 61.91%
+Image: 0000386.png | Accuracy: 58.08%
+Image: 0000387.png | Accuracy: 50.05%
+Image: 0000388.png | Accuracy: 59.09%
+Image: 0000389.png | Accuracy: 43.22%
+Image: 0000390.png | Accuracy: 56.67%
+Image: 0000391.png | Accuracy: 54.85%
+Image: 0000392.png | Accuracy: 54.25%
+Image: 0000393.png | Accuracy: 53.67%
+Image: 0000394.png | Accuracy: 54.22%
+Image: 0000395.png | Accuracy: 58.67%
+Image: 0000396.png | Accuracy: 56.64%
+Image: 0000397.png | Accuracy: 47.25%
+Image: 0000398.png | Accuracy: 53.47%
+Image: 0000399.png | Accuracy: 42.01%
+Image: 0000400.png | Accuracy: 47.92%
+Image: 0000401.png | Accuracy: 51.19%
+Image: 0000402.png | Accuracy: 46.07%
+Image: 0000403.png | Accuracy: 52.29%
+Image: 0000404.png | Accuracy: 53.44%
+Image: 0000405.png | Accuracy: 51.59%
+Image: 0000406.png | Accuracy: 55.29%
+Image: 0000407.png | Accuracy: 56.55%
+Image: 0000408.png | Accuracy: 59.30%
+Image: 0000409.png | Accuracy: 59.54%
+Image: 0000410.png | Accuracy: 58.60%
+Image: 0000411.png | Accuracy: 47.89%
+Image: 0000412.png | Accuracy: 44.88%
+Image: 0000413.png | Accuracy: 53.71%
+Image: 0000414.png | Accuracy: 43.19%
+Image: 0000415.png | Accuracy: 43.03%
+Image: 0000416.png | Accuracy: 35.84%
+Image: 0000417.png | Accuracy: 42.31%
+Image: 0000418.png | Accuracy: 47.77%
+Image: 0000419.png | Accuracy: 47.21%
+Image: 0000420.png | Accuracy: 47.63%
+Image: 0000421.png | Accuracy: 46.73%
+Image: 0000422.png | Accuracy: 53.36%
+Image: 0000423.png | Accuracy: 55.38%
+Image: 0000424.png | Accuracy: 62.73%
+Image: 0000425.png | Accuracy: 53.85%
+Image: 0000426.png | Accuracy: 57.87%
+Image: 0000427.png | Accuracy: 47.67%
+Image: 0000428.png | Accuracy: 40.99%
+Image: 0000429.png | Accuracy: 49.37%
+Image: 0000430.png | Accuracy: 53.16%
+Image: 0000431.png | Accuracy: 49.92%
+Image: 0000432.png | Accuracy: 47.52%
+Image: 0000433.png | Accuracy: 45.34%
+Image: 0000434.png | Accuracy: 46.06%
+Image: 0000435.png | Accuracy: 42.56%
+Image: 0000436.png | Accuracy: 47.83%
+Image: 0000437.png | Accuracy: 46.12%
+Image: 0000438.png | Accuracy: 48.15%
+Image: 0000439.png | Accuracy: 50.72%
+Image: 0000440.png | Accuracy: 56.30%
+Image: 0000441.png | Accuracy: 58.02%
+Image: 0000442.png | Accuracy: 58.86%
+Image: 0000443.png | Accuracy: 58.03%
+Image: 0000444.png | Accuracy: 64.95%
+Image: 0000445.png | Accuracy: 61.08%
+Image: 0000446.png | Accuracy: 59.35%
+Image: 0000447.png | Accuracy: 53.36%
+Image: 0000448.png | Accuracy: 51.80%
+Image: 0000449.png | Accuracy: 57.64%
+Image: 0000450.png | Accuracy: 61.91%
+Image: 0000451.png | Accuracy: 55.94%
+Image: 0000452.png | Accuracy: 45.76%
+Image: 0000453.png | Accuracy: 36.69%
+Image: 0000454.png | Accuracy: 39.83%
+Image: 0000455.png | Accuracy: 40.97%
+Image: 0000456.png | Accuracy: 34.37%
+Image: 0000457.png | Accuracy: 36.49%
+Image: 0000458.png | Accuracy: 37.92%
+Image: 0000459.png | Accuracy: 37.35%
+Image: 0000460.png | Accuracy: 39.35%
+Image: 0000461.png | Accuracy: 49.40%
+Image: 0000462.png | Accuracy: 50.27%
+Image: 0000463.png | Accuracy: 50.08%
+Image: 0000464.png | Accuracy: 48.04%
+Image: 0000465.png | Accuracy: 43.30%
+Image: 0000466.png | Accuracy: 45.73%
+Image: 0000467.png | Accuracy: 41.33%
+Image: 0000468.png | Accuracy: 36.78%
+Image: 0000469.png | Accuracy: 42.10%
+Image: 0000470.png | Accuracy: 45.03%
+Image: 0000471.png | Accuracy: 48.50%
+Image: 0000472.png | Accuracy: 44.58%
+Image: 0000473.png | Accuracy: 57.92%
+Image: 0000474.png | Accuracy: 57.24%
+Image: 0000475.png | Accuracy: 65.36%
+Image: 0000476.png | Accuracy: 68.12%
+Image: 0000477.png | Accuracy: 60.29%
+Image: 0000478.png | Accuracy: 68.37%
+Image: 0000479.png | Accuracy: 57.74%
+Image: 0000480.png | Accuracy: 60.75%
+Image: 0000481.png | Accuracy: 58.30%
+Image: 0000482.png | Accuracy: 55.96%
+Image: 0000483.png | Accuracy: 51.14%
+Image: 0000484.png | Accuracy: 50.95%
+Image: 0000485.png | Accuracy: 53.31%
+Image: 0000486.png | Accuracy: 45.73%
+Image: 0000487.png | Accuracy: 48.93%
+Image: 0000488.png | Accuracy: 49.58%
+Image: 0000489.png | Accuracy: 47.81%
+Image: 0000490.png | Accuracy: 58.11%
+Image: 0000491.png | Accuracy: 56.88%
+Image: 0000492.png | Accuracy: 61.80%
+Image: 0000493.png | Accuracy: 53.86%
+Image: 0000494.png | Accuracy: 52.21%
+Image: 0000495.png | Accuracy: 56.88%
+Image: 0000496.png | Accuracy: 57.71%
+Image: 0000497.png | Accuracy: 52.77%
+Image: 0000498.png | Accuracy: 50.52%
+Image: 0000499.png | Accuracy: 56.16%
+Image: 0000500.png | Accuracy: 51.04%
+Image: 0000501.png | Accuracy: 56.40%
+Image: 0000502.png | Accuracy: 57.25%
+Image: 0000503.png | Accuracy: 56.82%
+Image: 0000504.png | Accuracy: 58.09%
+Image: 0000505.png | Accuracy: 61.87%
+Image: 0000506.png | Accuracy: 58.74%
+Image: 0000507.png | Accuracy: 53.96%
+Image: 0000508.png | Accuracy: 54.66%
+Image: 0000509.png | Accuracy: 50.55%
+Image: 0000510.png | Accuracy: 44.29%
+Image: 0000511.png | Accuracy: 48.30%
+Image: 0000512.png | Accuracy: 50.64%
+Image: 0000513.png | Accuracy: 50.47%
+Image: 0000514.png | Accuracy: 56.82%
+Image: 0000515.png | Accuracy: 59.91%
+Image: 0000516.png | Accuracy: 58.75%
+Image: 0000517.png | Accuracy: 54.29%
+Image: 0000518.png | Accuracy: 54.03%
+Image: 0000519.png | Accuracy: 60.77%
+Image: 0000520.png | Accuracy: 65.51%
+Image: 0000521.png | Accuracy: 61.57%
+Image: 0000522.png | Accuracy: 56.56%
+Image: 0000523.png | Accuracy: 57.30%
+Image: 0000524.png | Accuracy: 56.12%
+Image: 0000525.png | Accuracy: 55.20%
+Image: 0000526.png | Accuracy: 52.97%
+Image: 0000527.png | Accuracy: 62.72%
+Image: 0000528.png | Accuracy: 67.57%
+Image: 0000529.png | Accuracy: 66.54%
+Image: 0000530.png | Accuracy: 61.93%
+Image: 0000531.png | Accuracy: 57.01%
+Image: 0000532.png | Accuracy: 57.00%
+Image: 0000533.png | Accuracy: 53.75%
+Image: 0000534.png | Accuracy: 47.44%
+Image: 0000535.png | Accuracy: 49.11%
+Image: 0000536.png | Accuracy: 57.42%
+Image: 0000537.png | Accuracy: 59.10%
+Image: 0000538.png | Accuracy: 59.61%
+Image: 0000539.png | Accuracy: 55.93%
+Image: 0000540.png | Accuracy: 50.96%
+Image: 0000541.png | Accuracy: 47.21%
+Image: 0000542.png | Accuracy: 45.31%
+Image: 0000543.png | Accuracy: 55.29%
+Image: 0000544.png | Accuracy: 56.09%
+Image: 0000545.png | Accuracy: 60.86%
+Image: 0000546.png | Accuracy: 63.56%
+Image: 0000547.png | Accuracy: 69.05%
+Image: 0000548.png | Accuracy: 63.46%
+Image: 0000549.png | Accuracy: 56.35%
+Image: 0000550.png | Accuracy: 43.37%
+Image: 0000551.png | Accuracy: 50.06%
+Image: 0000552.png | Accuracy: 43.73%
+Image: 0000553.png | Accuracy: 56.76%
+Image: 0000554.png | Accuracy: 64.44%
+Image: 0000555.png | Accuracy: 53.78%
+Image: 0000556.png | Accuracy: 39.18%
+Image: 0000557.png | Accuracy: 38.13%
+Image: 0000558.png | Accuracy: 45.52%
+Image: 0000559.png | Accuracy: 56.67%
+Image: 0000560.png | Accuracy: 59.38%
+Image: 0000561.png | Accuracy: 58.51%
+Image: 0000562.png | Accuracy: 49.58%
+Image: 0000563.png | Accuracy: 51.49%
+Image: 0000564.png | Accuracy: 48.64%
+Image: 0000565.png | Accuracy: 47.85%
+Image: 0000566.png | Accuracy: 56.23%
+Image: 0000567.png | Accuracy: 50.67%
+Image: 0000568.png | Accuracy: 52.02%
+Image: 0000569.png | Accuracy: 56.47%
+Image: 0000570.png | Accuracy: 62.07%
+Image: 0000571.png | Accuracy: 61.98%
+Image: 0000572.png | Accuracy: 57.58%
+Image: 0000573.png | Accuracy: 55.92%
+Image: 0000574.png | Accuracy: 61.81%
+Image: 0000575.png | Accuracy: 52.30%
+Image: 0000576.png | Accuracy: 49.02%
+Image: 0000577.png | Accuracy: 53.13%
+Image: 0000578.png | Accuracy: 53.70%
+Image: 0000579.png | Accuracy: 51.78%
+Image: 0000580.png | Accuracy: 62.66%
+Image: 0000581.png | Accuracy: 54.21%
+Image: 0000582.png | Accuracy: 55.33%
+Image: 0000583.png | Accuracy: 47.43%
+Image: 0000584.png | Accuracy: 59.85%
+Image: 0000585.png | Accuracy: 67.10%
+Image: 0000586.png | Accuracy: 64.48%
+Image: 0000587.png | Accuracy: 58.96%
+Image: 0000588.png | Accuracy: 55.65%
+Image: 0000589.png | Accuracy: 56.25%
+Image: 0000590.png | Accuracy: 60.24%
+Image: 0000591.png | Accuracy: 62.03%
+Image: 0000592.png | Accuracy: 66.66%
+Image: 0000593.png | Accuracy: 62.51%
+Image: 0000594.png | Accuracy: 60.87%
+Image: 0000595.png | Accuracy: 62.81%
+Image: 0000596.png | Accuracy: 60.87%
+Image: 0000597.png | Accuracy: 53.93%
+Image: 0000598.png | Accuracy: 53.41%
+Image: 0000599.png | Accuracy: 56.29%
+Image: 0000600.png | Accuracy: 46.19%
+Image: 0000601.png | Accuracy: 53.47%
+Image: 0000602.png | Accuracy: 59.87%
+Image: 0000603.png | Accuracy: 58.64%
+Image: 0000604.png | Accuracy: 49.20%
+Image: 0000605.png | Accuracy: 48.28%
+Image: 0000606.png | Accuracy: 56.20%
+Image: 0000607.png | Accuracy: 54.00%
+Image: 0000608.png | Accuracy: 54.21%
+Image: 0000609.png | Accuracy: 59.96%
+Image: 0000610.png | Accuracy: 56.73%
+Image: 0000611.png | Accuracy: 50.07%
+Image: 0000612.png | Accuracy: 49.46%
+Image: 0000613.png | Accuracy: 47.95%
+Image: 0000614.png | Accuracy: 50.35%
+Image: 0000615.png | Accuracy: 44.13%
+Image: 0000616.png | Accuracy: 43.53%
+Image: 0000617.png | Accuracy: 47.99%
+Image: 0000618.png | Accuracy: 55.99%
+Image: 0000619.png | Accuracy: 54.77%
+Image: 0000620.png | Accuracy: 55.92%
+Image: 0000621.png | Accuracy: 58.19%
+Image: 0000622.png | Accuracy: 63.66%
+Image: 0000623.png | Accuracy: 58.92%
+Image: 0000624.png | Accuracy: 62.34%
+Image: 0000625.png | Accuracy: 65.75%
+Image: 0000626.png | Accuracy: 63.42%
+Image: 0000627.png | Accuracy: 57.73%
+Image: 0000628.png | Accuracy: 58.95%
+Image: 0000629.png | Accuracy: 67.99%
+Image: 0000630.png | Accuracy: 57.37%
+Image: 0000631.png | Accuracy: 48.17%
+Image: 0000632.png | Accuracy: 46.67%
+Image: 0000633.png | Accuracy: 53.30%
+Image: 0000634.png | Accuracy: 54.55%
+Image: 0000635.png | Accuracy: 51.56%
+Image: 0000636.png | Accuracy: 49.49%
+Image: 0000637.png | Accuracy: 50.13%
+Image: 0000638.png | Accuracy: 51.12%
+Image: 0000639.png | Accuracy: 56.01%
+Image: 0000640.png | Accuracy: 58.46%
+Image: 0000641.png | Accuracy: 60.09%
+Image: 0000642.png | Accuracy: 61.38%
+Image: 0000643.png | Accuracy: 57.22%
+Image: 0000644.png | Accuracy: 61.65%
+Image: 0000645.png | Accuracy: 58.14%
+Image: 0000646.png | Accuracy: 55.36%
+Image: 0000647.png | Accuracy: 57.69%
+Image: 0000648.png | Accuracy: 59.64%
+Image: 0000649.png | Accuracy: 61.06%
+Image: 0000650.png | Accuracy: 62.69%
+Image: 0000651.png | Accuracy: 60.49%
+Image: 0000652.png | Accuracy: 65.82%
+Image: 0000653.png | Accuracy: 64.19%
+Image: 0000654.png | Accuracy: 57.38%
+Image: 0000655.png | Accuracy: 56.63%
+Image: 0000656.png | Accuracy: 51.07%
+Image: 0000657.png | Accuracy: 49.39%
+Image: 0000658.png | Accuracy: 52.40%
+Image: 0000659.png | Accuracy: 54.55%
+Image: 0000660.png | Accuracy: 57.79%
+Image: 0000661.png | Accuracy: 61.95%
+Image: 0000662.png | Accuracy: 61.88%
+Image: 0000663.png | Accuracy: 59.91%
+Image: 0000664.png | Accuracy: 56.75%
+Image: 0000665.png | Accuracy: 51.74%
+Image: 0000666.png | Accuracy: 51.27%
+Image: 0000667.png | Accuracy: 54.04%
+Image: 0000668.png | Accuracy: 53.85%
+Image: 0000669.png | Accuracy: 49.42%
+Image: 0000670.png | Accuracy: 45.72%
+Image: 0000671.png | Accuracy: 45.30%
+Image: 0000672.png | Accuracy: 46.80%
+Image: 0000673.png | Accuracy: 45.92%
+Image: 0000674.png | Accuracy: 44.86%
+Image: 0000675.png | Accuracy: 44.66%
+Image: 0000676.png | Accuracy: 52.47%
+Image: 0000677.png | Accuracy: 51.41%
+Image: 0000678.png | Accuracy: 55.05%
+Image: 0000679.png | Accuracy: 59.02%
+Image: 0000680.png | Accuracy: 65.23%
+Image: 0000681.png | Accuracy: 60.90%
+Image: 0000682.png | Accuracy: 54.23%
+Image: 0000683.png | Accuracy: 50.61%
+Image: 0000684.png | Accuracy: 50.43%
+Image: 0000685.png | Accuracy: 47.71%
+Image: 0000686.png | Accuracy: 49.97%
+Image: 0000687.png | Accuracy: 59.19%
+Image: 0000688.png | Accuracy: 55.81%
+Image: 0000689.png | Accuracy: 58.11%
+Image: 0000690.png | Accuracy: 51.86%
+Image: 0000691.png | Accuracy: 47.82%
+Image: 0000692.png | Accuracy: 50.49%
+Image: 0000693.png | Accuracy: 52.81%
+Image: 0000694.png | Accuracy: 62.02%
+Image: 0000695.png | Accuracy: 61.18%
+Image: 0000696.png | Accuracy: 65.60%
+Image: 0000697.png | Accuracy: 60.14%
+Image: 0000698.png | Accuracy: 60.97%
+Image: 0000699.png | Accuracy: 52.73%
+Image: 0000700.png | Accuracy: 50.01%
+Image: 0000701.png | Accuracy: 48.78%
+Image: 0000702.png | Accuracy: 59.59%
+Image: 0000703.png | Accuracy: 54.19%
+Image: 0000704.png | Accuracy: 58.81%
+Image: 0000705.png | Accuracy: 59.83%
+Image: 0000706.png | Accuracy: 58.56%
+Image: 0000707.png | Accuracy: 53.87%
+Image: 0000708.png | Accuracy: 50.16%
+Image: 0000709.png | Accuracy: 49.01%
+Image: 0000710.png | Accuracy: 55.72%
+Image: 0000711.png | Accuracy: 51.40%
+Image: 0000712.png | Accuracy: 50.76%
+Image: 0000713.png | Accuracy: 55.64%
+Image: 0000714.png | Accuracy: 49.97%
+Image: 0000715.png | Accuracy: 48.89%
+Image: 0000716.png | Accuracy: 49.79%
+Image: 0000717.png | Accuracy: 51.52%
+Image: 0000718.png | Accuracy: 52.11%
+Image: 0000719.png | Accuracy: 49.16%
+Image: 0000720.png | Accuracy: 46.00%
+Image: 0000721.png | Accuracy: 46.61%
+Image: 0000722.png | Accuracy: 56.28%
+Image: 0000723.png | Accuracy: 54.22%
+Image: 0000724.png | Accuracy: 57.33%
+Image: 0000725.png | Accuracy: 60.73%
+Image: 0000726.png | Accuracy: 65.61%
+Image: 0000727.png | Accuracy: 60.16%
+Image: 0000728.png | Accuracy: 62.39%
+Image: 0000729.png | Accuracy: 66.89%
+Image: 0000730.png | Accuracy: 67.52%
+Image: 0000731.png | Accuracy: 65.81%
+Image: 0000732.png | Accuracy: 69.40%
+Image: 0000733.png | Accuracy: 65.96%
+Image: 0000734.png | Accuracy: 64.60%
+Image: 0000735.png | Accuracy: 66.54%
+Image: 0000736.png | Accuracy: 69.12%
+Image: 0000737.png | Accuracy: 70.39%
+Image: 0000738.png | Accuracy: 73.86%
+Image: 0000739.png | Accuracy: 72.86%
+Image: 0000740.png | Accuracy: 69.39%
+Image: 0000741.png | Accuracy: 65.80%
+Image: 0000742.png | Accuracy: 66.15%
+Image: 0000743.png | Accuracy: 66.63%
+Image: 0000744.png | Accuracy: 60.20%
+Image: 0000745.png | Accuracy: 60.48%
+Image: 0000746.png | Accuracy: 56.97%
+Image: 0000747.png | Accuracy: 51.49%
+Image: 0000748.png | Accuracy: 56.51%
+Image: 0000749.png | Accuracy: 49.97%
+Image: 0000750.png | Accuracy: 50.11%
+Image: 0000751.png | Accuracy: 58.99%
+Image: 0000752.png | Accuracy: 57.14%
+Image: 0000753.png | Accuracy: 55.21%
+Image: 0000754.png | Accuracy: 52.33%
+Image: 0000755.png | Accuracy: 55.74%
+Image: 0000756.png | Accuracy: 49.59%
+Image: 0000757.png | Accuracy: 54.15%
+Image: 0000758.png | Accuracy: 59.10%
+Image: 0000759.png | Accuracy: 60.34%
+Image: 0000760.png | Accuracy: 63.12%
+Image: 0000761.png | Accuracy: 64.33%
+Image: 0000762.png | Accuracy: 70.81%
+Image: 0000763.png | Accuracy: 76.35%
+Image: 0000764.png | Accuracy: 62.21%
+Image: 0000765.png | Accuracy: 62.27%
+Image: 0000766.png | Accuracy: 56.47%
+Image: 0000767.png | Accuracy: 56.46%
+Image: 0000768.png | Accuracy: 56.88%
+Image: 0000769.png | Accuracy: 58.04%
+Image: 0000770.png | Accuracy: 54.95%
+Image: 0000771.png | Accuracy: 51.98%
+Image: 0000772.png | Accuracy: 58.12%
+Image: 0000773.png | Accuracy: 54.07%
+Image: 0000774.png | Accuracy: 57.74%
+Image: 0000775.png | Accuracy: 52.08%
+Image: 0000776.png | Accuracy: 51.75%
+Image: 0000777.png | Accuracy: 53.91%
+Image: 0000778.png | Accuracy: 60.27%
+Image: 0000779.png | Accuracy: 63.05%
+Image: 0000780.png | Accuracy: 66.95%
+Image: 0000781.png | Accuracy: 62.27%
+Image: 0000782.png | Accuracy: 63.22%
+Image: 0000783.png | Accuracy: 61.29%
+Image: 0000784.png | Accuracy: 60.61%
+Image: 0000785.png | Accuracy: 64.08%
+Image: 0000786.png | Accuracy: 63.50%
+Image: 0000787.png | Accuracy: 61.43%
+Image: 0000788.png | Accuracy: 55.59%
+Image: 0000789.png | Accuracy: 61.02%
+Image: 0000790.png | Accuracy: 68.36%
+Image: 0000791.png | Accuracy: 66.02%
+Image: 0000792.png | Accuracy: 62.16%
+Image: 0000793.png | Accuracy: 57.19%
+Image: 0000794.png | Accuracy: 59.13%
+Image: 0000795.png | Accuracy: 58.78%
+Image: 0000796.png | Accuracy: 54.15%
+Image: 0000797.png | Accuracy: 49.25%
+Image: 0000798.png | Accuracy: 53.91%
+Image: 0000799.png | Accuracy: 53.76%
+Image: 0000800.png | Accuracy: 53.96%
+Image: 0000801.png | Accuracy: 52.44%
+Image: 0000802.png | Accuracy: 50.07%
+Image: 0000803.png | Accuracy: 53.15%
+Image: 0000804.png | Accuracy: 47.67%
+Image: 0000805.png | Accuracy: 54.87%
+Image: 0000806.png | Accuracy: 53.34%
+Image: 0000807.png | Accuracy: 48.09%
+Image: 0000808.png | Accuracy: 47.02%
+Image: 0000809.png | Accuracy: 43.85%
+Image: 0000810.png | Accuracy: 47.17%
+Image: 0000811.png | Accuracy: 53.11%
+Image: 0000812.png | Accuracy: 54.00%
+Image: 0000813.png | Accuracy: 48.42%
+Image: 0000814.png | Accuracy: 45.08%
+Image: 0000815.png | Accuracy: 43.69%
+Image: 0000816.png | Accuracy: 51.00%
+Image: 0000817.png | Accuracy: 63.99%
+Image: 0000818.png | Accuracy: 71.98%
+Image: 0000819.png | Accuracy: 76.75%
+Image: 0000820.png | Accuracy: 76.50%
+Image: 0000821.png | Accuracy: 69.20%
+Image: 0000822.png | Accuracy: 73.94%
+Image: 0000823.png | Accuracy: 68.04%
+Image: 0000824.png | Accuracy: 77.26%
+Image: 0000825.png | Accuracy: 78.34%
+Image: 0000826.png | Accuracy: 75.48%
+Image: 0000827.png | Accuracy: 73.24%
+Image: 0000828.png | Accuracy: 71.25%
+Image: 0000829.png | Accuracy: 66.43%
+Image: 0000830.png | Accuracy: 67.83%
+Image: 0000831.png | Accuracy: 57.11%
+Image: 0000832.png | Accuracy: 58.46%
+Image: 0000833.png | Accuracy: 58.96%
+Image: 0000834.png | Accuracy: 58.57%
+Image: 0000835.png | Accuracy: 62.03%
+Image: 0000836.png | Accuracy: 53.64%
+Image: 0000837.png | Accuracy: 57.94%
+Image: 0000838.png | Accuracy: 60.84%
+Image: 0000839.png | Accuracy: 66.57%
+Image: 0000840.png | Accuracy: 55.62%
+Image: 0000841.png | Accuracy: 51.28%
+Image: 0000842.png | Accuracy: 51.07%
+Image: 0000843.png | Accuracy: 57.35%
+Image: 0000844.png | Accuracy: 55.26%
+Image: 0000845.png | Accuracy: 57.78%
+Image: 0000846.png | Accuracy: 60.64%
+Image: 0000847.png | Accuracy: 61.23%
+Image: 0000848.png | Accuracy: 58.31%
+Image: 0000849.png | Accuracy: 56.40%
+Image: 0000850.png | Accuracy: 48.10%
+Image: 0000851.png | Accuracy: 45.07%
+Image: 0000852.png | Accuracy: 53.06%
+Image: 0000853.png | Accuracy: 54.86%
+Image: 0000854.png | Accuracy: 56.40%
+Image: 0000855.png | Accuracy: 57.24%
+Image: 0000856.png | Accuracy: 54.17%
+Image: 0000857.png | Accuracy: 49.66%
+Image: 0000858.png | Accuracy: 52.46%
+Image: 0000859.png | Accuracy: 58.88%
+Image: 0000860.png | Accuracy: 58.98%
+Image: 0000861.png | Accuracy: 58.56%
+Image: 0000862.png | Accuracy: 58.60%
+Image: 0000863.png | Accuracy: 60.32%
+Image: 0000864.png | Accuracy: 55.67%
+Image: 0000865.png | Accuracy: 55.61%
+Image: 0000866.png | Accuracy: 53.31%
+Image: 0000867.png | Accuracy: 49.30%
+Image: 0000868.png | Accuracy: 49.09%
+Image: 0000869.png | Accuracy: 48.65%
+Image: 0000870.png | Accuracy: 49.27%
+Image: 0000871.png | Accuracy: 56.05%
+Image: 0000872.png | Accuracy: 54.71%
+Image: 0000873.png | Accuracy: 54.47%
+Image: 0000874.png | Accuracy: 59.04%
+Image: 0000875.png | Accuracy: 59.60%
+Image: 0000876.png | Accuracy: 50.34%
+Image: 0000877.png | Accuracy: 49.48%
+Image: 0000878.png | Accuracy: 48.56%
+Image: 0000879.png | Accuracy: 52.28%
+Image: 0000880.png | Accuracy: 58.26%
+Image: 0000881.png | Accuracy: 61.10%
+Image: 0000882.png | Accuracy: 53.56%
+Image: 0000883.png | Accuracy: 56.85%
+Image: 0000884.png | Accuracy: 60.78%
+Image: 0000885.png | Accuracy: 59.72%
+Image: 0000886.png | Accuracy: 63.38%
+Image: 0000887.png | Accuracy: 58.38%
+Image: 0000888.png | Accuracy: 63.59%
+Image: 0000889.png | Accuracy: 55.17%
+Image: 0000890.png | Accuracy: 55.69%
+Image: 0000891.png | Accuracy: 55.13%
+Image: 0000892.png | Accuracy: 54.72%
+Image: 0000893.png | Accuracy: 53.83%
+Image: 0000894.png | Accuracy: 55.13%
+Image: 0000895.png | Accuracy: 57.76%
+Image: 0000896.png | Accuracy: 53.64%
+Image: 0000897.png | Accuracy: 60.52%
+Image: 0000898.png | Accuracy: 63.43%
+Image: 0000899.png | Accuracy: 57.62%
+Image: 0000900.png | Accuracy: 57.30%
+Image: 0000901.png | Accuracy: 49.15%
+Image: 0000902.png | Accuracy: 54.13%
+Image: 0000903.png | Accuracy: 50.18%
+Image: 0000904.png | Accuracy: 52.85%
+Image: 0000905.png | Accuracy: 48.68%
+Image: 0000906.png | Accuracy: 48.43%
+Image: 0000907.png | Accuracy: 50.53%
+Image: 0000908.png | Accuracy: 53.36%
+Image: 0000909.png | Accuracy: 43.40%
+Image: 0000910.png | Accuracy: 51.30%
+Image: 0000911.png | Accuracy: 53.78%
+Image: 0000912.png | Accuracy: 49.97%
+Image: 0000913.png | Accuracy: 54.94%
+Image: 0000914.png | Accuracy: 53.91%
+Image: 0000915.png | Accuracy: 53.87%
+Image: 0000916.png | Accuracy: 62.34%
+Image: 0000917.png | Accuracy: 65.56%
+Image: 0000918.png | Accuracy: 60.26%
+Image: 0000919.png | Accuracy: 62.03%
+Image: 0000920.png | Accuracy: 69.26%
+Image: 0000921.png | Accuracy: 65.02%
+Image: 0000922.png | Accuracy: 68.63%
+Image: 0000923.png | Accuracy: 61.31%
+Image: 0000924.png | Accuracy: 54.93%
+Image: 0000925.png | Accuracy: 55.64%
+Image: 0000926.png | Accuracy: 57.77%
+Image: 0000927.png | Accuracy: 58.51%
+Image: 0000928.png | Accuracy: 59.56%
+Image: 0000929.png | Accuracy: 53.49%
+Image: 0000930.png | Accuracy: 52.30%
+Image: 0000931.png | Accuracy: 55.16%
+Image: 0000932.png | Accuracy: 58.84%
+Image: 0000933.png | Accuracy: 65.98%
+Image: 0000934.png | Accuracy: 68.75%
+Image: 0000935.png | Accuracy: 66.80%
+Image: 0000936.png | Accuracy: 65.61%
+Image: 0000937.png | Accuracy: 57.80%
+Image: 0000938.png | Accuracy: 52.88%
+Image: 0000939.png | Accuracy: 52.31%
+Image: 0000940.png | Accuracy: 58.72%
+Image: 0000941.png | Accuracy: 57.35%
+Image: 0000942.png | Accuracy: 61.74%
+Image: 0000943.png | Accuracy: 67.58%
+Image: 0000944.png | Accuracy: 68.94%
+Image: 0000945.png | Accuracy: 60.43%
+Image: 0000946.png | Accuracy: 55.20%
+Image: 0000947.png | Accuracy: 57.70%
+Image: 0000948.png | Accuracy: 58.44%
+Image: 0000949.png | Accuracy: 58.16%
+Image: 0000950.png | Accuracy: 58.33%
+Image: 0000951.png | Accuracy: 55.41%
+Image: 0000952.png | Accuracy: 62.61%
+Image: 0000953.png | Accuracy: 55.99%
+Image: 0000954.png | Accuracy: 51.11%
+Image: 0000955.png | Accuracy: 53.30%
+Image: 0000956.png | Accuracy: 53.51%
+Image: 0000957.png | Accuracy: 52.42%
+Image: 0000958.png | Accuracy: 49.96%
+Image: 0000959.png | Accuracy: 48.75%
+Image: 0000960.png | Accuracy: 39.43%
+Image: 0000961.png | Accuracy: 43.20%
+Image: 0000962.png | Accuracy: 45.23%
+Image: 0000963.png | Accuracy: 44.16%
+Image: 0000964.png | Accuracy: 45.09%
+Image: 0000965.png | Accuracy: 47.89%
+Image: 0000966.png | Accuracy: 41.43%
+Image: 0000967.png | Accuracy: 46.15%
+Image: 0000968.png | Accuracy: 52.85%
+Image: 0000969.png | Accuracy: 52.39%
+Image: 0000970.png | Accuracy: 51.62%
+Image: 0000971.png | Accuracy: 49.63%
+Image: 0000972.png | Accuracy: 52.05%
+Image: 0000973.png | Accuracy: 48.21%
+Image: 0000974.png | Accuracy: 43.06%
+Image: 0000975.png | Accuracy: 44.59%
+Image: 0000976.png | Accuracy: 47.22%
+Image: 0000977.png | Accuracy: 51.39%
+Image: 0000978.png | Accuracy: 64.17%
+Image: 0000979.png | Accuracy: 58.05%
+Image: 0000980.png | Accuracy: 59.50%
+Image: 0000981.png | Accuracy: 50.08%
+Image: 0000982.png | Accuracy: 51.05%
+Image: 0000983.png | Accuracy: 55.21%
+Image: 0000984.png | Accuracy: 60.16%
+Image: 0000985.png | Accuracy: 62.13%
+Image: 0000986.png | Accuracy: 57.23%
+Image: 0000987.png | Accuracy: 54.59%
+Image: 0000988.png | Accuracy: 51.62%
+Image: 0000989.png | Accuracy: 47.06%
+Image: 0000990.png | Accuracy: 55.23%
+Image: 0000991.png | Accuracy: 56.69%
+Image: 0000992.png | Accuracy: 44.61%
+Image: 0000993.png | Accuracy: 43.47%
+Image: 0000994.png | Accuracy: 43.58%
+Image: 0000995.png | Accuracy: 41.61%
+Image: 0000996.png | Accuracy: 50.12%
+Image: 0000997.png | Accuracy: 53.16%
+Image: 0000998.png | Accuracy: 49.41%
+Image: 0000999.png | Accuracy: 57.77%
+Image: 0001000.png | Accuracy: 50.43%
+Image: 0001001.png | Accuracy: 42.30%
+Image: 0001002.png | Accuracy: 44.21%
+Image: 0001003.png | Accuracy: 44.90%
+Image: 0001004.png | Accuracy: 43.76%
+Image: 0001005.png | Accuracy: 40.54%
+Image: 0001006.png | Accuracy: 46.55%
+Image: 0001007.png | Accuracy: 48.52%
+Image: 0001008.png | Accuracy: 51.04%
+Image: 0001009.png | Accuracy: 55.35%
+Image: 0001010.png | Accuracy: 50.74%
+Image: 0001011.png | Accuracy: 51.36%
+Image: 0001012.png | Accuracy: 53.55%
+Image: 0001013.png | Accuracy: 54.97%
+Image: 0001014.png | Accuracy: 54.10%
+Image: 0001015.png | Accuracy: 60.70%
+Image: 0001016.png | Accuracy: 56.48%
+Image: 0001017.png | Accuracy: 60.74%
+Image: 0001018.png | Accuracy: 60.45%
+Image: 0001019.png | Accuracy: 56.71%
+Image: 0001020.png | Accuracy: 57.73%
+Image: 0001021.png | Accuracy: 52.56%
+Image: 0001022.png | Accuracy: 53.08%
+Image: 0001023.png | Accuracy: 49.98%
+Image: 0001024.png | Accuracy: 50.97%
+Image: 0001025.png | Accuracy: 46.90%
+Image: 0001026.png | Accuracy: 48.21%
+Image: 0001027.png | Accuracy: 48.34%
+Image: 0001028.png | Accuracy: 50.14%
+Image: 0001029.png | Accuracy: 44.76%
+Image: 0001030.png | Accuracy: 43.31%
+Image: 0001031.png | Accuracy: 43.53%
+Image: 0001032.png | Accuracy: 48.03%
+Image: 0001033.png | Accuracy: 49.60%
+Image: 0001034.png | Accuracy: 50.21%
+Image: 0001035.png | Accuracy: 56.66%
+Image: 0001036.png | Accuracy: 62.30%
+Image: 0001037.png | Accuracy: 60.23%
+Image: 0001038.png | Accuracy: 58.44%
+Image: 0001039.png | Accuracy: 61.73%
+Image: 0001040.png | Accuracy: 60.81%
+Image: 0001041.png | Accuracy: 62.23%
+Image: 0001042.png | Accuracy: 59.11%
+Image: 0001043.png | Accuracy: 65.64%
+Image: 0001044.png | Accuracy: 63.08%
+Image: 0001045.png | Accuracy: 57.54%
+Image: 0001046.png | Accuracy: 49.23%
+Image: 0001047.png | Accuracy: 53.97%
+Image: 0001048.png | Accuracy: 46.26%
+Image: 0001049.png | Accuracy: 54.77%
+Image: 0001050.png | Accuracy: 50.65%
+Image: 0001051.png | Accuracy: 49.44%
+Image: 0001052.png | Accuracy: 52.03%
+Image: 0001053.png | Accuracy: 46.33%
+Image: 0001054.png | Accuracy: 57.02%
+Image: 0001055.png | Accuracy: 53.54%
+Image: 0001056.png | Accuracy: 55.40%
+Image: 0001057.png | Accuracy: 62.20%
+Image: 0001058.png | Accuracy: 57.39%
+Image: 0001059.png | Accuracy: 53.34%
+Image: 0001060.png | Accuracy: 54.71%
+Image: 0001061.png | Accuracy: 57.08%
+
 ==============================
+FINAL CLASS-WISE METRICS
+==============================
+Background     : IoU = 46.83%
+Trees          : IoU = 7.92%
+Lush Bushes    : IoU = 0.03%
+Dry Grass      : IoU = 1.05%
+Dry Bushes     : IoU = 3.28%
+Ground Clutter : IoU = 0.01%
+Logs           : IoU = 0.02%
+Rocks          : IoU = 8.95%
+Landscape      : IoU = 43.08%
+Sky            : IoU = 64.96%
 
-Model: DINOv2 (Transfer Learning)
-Test Set Size: 1002 images
-
-Summary Metrics:
-  Mean IoU: 0.3572
-  Mean Accuracy: 80.44%
-
-Class Performance:
-  Background     : 0.7594
-  Trees          : 0.0000
-  Lush Bushes    : 0.0000
-  Dry Grass      : 0.0002
-  Dry Bushes     : 0.0000
-  Ground Clutter : 0.0000
-  Logs           : 0.0000
-  Rocks          : 0.0000
-  Landscape      : 0.3627
-  Sky            : 0.6639
-
-Detailed Image Log:
-0000060.png: Acc=87.47%
-0000061.png: Acc=89.53%
-0000062.png: Acc=88.74%
-0000063.png: Acc=87.26%
-0000064.png: Acc=86.14%
-0000065.png: Acc=81.66%
-0000066.png: Acc=80.32%
-0000067.png: Acc=83.15%
-0000068.png: Acc=87.53%
-0000069.png: Acc=87.82%
-0000070.png: Acc=87.90%
-0000071.png: Acc=87.45%
-0000072.png: Acc=86.46%
-0000073.png: Acc=83.54%
-0000074.png: Acc=81.92%
-0000075.png: Acc=81.32%
-0000076.png: Acc=80.94%
-0000077.png: Acc=80.75%
-0000078.png: Acc=79.09%
-0000079.png: Acc=78.35%
-0000080.png: Acc=78.15%
-0000081.png: Acc=79.30%
-0000082.png: Acc=79.90%
-0000083.png: Acc=78.85%
-0000084.png: Acc=80.90%
-0000085.png: Acc=83.32%
-0000086.png: Acc=84.03%
-0000087.png: Acc=84.80%
-0000088.png: Acc=83.76%
-0000089.png: Acc=83.77%
-0000090.png: Acc=82.11%
-0000091.png: Acc=80.00%
-0000092.png: Acc=79.53%
-0000093.png: Acc=80.29%
-0000094.png: Acc=78.07%
-0000095.png: Acc=75.82%
-0000096.png: Acc=68.68%
-0000097.png: Acc=67.27%
-0000098.png: Acc=67.54%
-0000099.png: Acc=69.74%
-0000100.png: Acc=70.57%
-0000101.png: Acc=69.05%
-0000102.png: Acc=69.86%
-0000103.png: Acc=73.80%
-0000104.png: Acc=75.26%
-0000105.png: Acc=76.56%
-0000106.png: Acc=76.72%
-0000107.png: Acc=75.81%
-0000108.png: Acc=76.54%
-0000109.png: Acc=77.76%
-0000110.png: Acc=77.55%
-0000111.png: Acc=78.03%
-0000112.png: Acc=78.87%
-0000113.png: Acc=76.96%
-0000114.png: Acc=76.41%
-0000115.png: Acc=77.82%
-0000116.png: Acc=78.51%
-0000117.png: Acc=78.74%
-0000118.png: Acc=80.84%
-0000119.png: Acc=77.84%
-0000120.png: Acc=79.21%
-0000121.png: Acc=76.14%
-0000122.png: Acc=78.25%
-0000123.png: Acc=81.00%
-0000124.png: Acc=84.48%
-0000125.png: Acc=84.72%
-0000126.png: Acc=86.38%
-0000127.png: Acc=85.27%
-0000128.png: Acc=83.11%
-0000129.png: Acc=82.36%
-0000130.png: Acc=81.59%
-0000131.png: Acc=82.76%
-0000132.png: Acc=81.57%
-0000133.png: Acc=80.27%
-0000134.png: Acc=78.91%
-0000135.png: Acc=76.99%
-0000136.png: Acc=79.01%
-0000137.png: Acc=80.61%
-0000138.png: Acc=84.20%
-0000139.png: Acc=85.07%
-0000140.png: Acc=85.37%
-0000141.png: Acc=84.57%
-0000142.png: Acc=83.64%
-0000143.png: Acc=83.16%
-0000144.png: Acc=84.09%
-0000145.png: Acc=82.15%
-0000146.png: Acc=81.63%
-0000147.png: Acc=80.40%
-0000148.png: Acc=78.25%
-0000149.png: Acc=76.41%
-0000150.png: Acc=76.66%
-0000151.png: Acc=76.30%
-0000152.png: Acc=77.00%
-0000153.png: Acc=77.13%
-0000154.png: Acc=73.64%
-0000155.png: Acc=72.17%
-0000156.png: Acc=71.17%
-0000157.png: Acc=70.89%
-0000158.png: Acc=68.95%
-0000159.png: Acc=71.95%
-0000160.png: Acc=77.69%
-0000161.png: Acc=78.89%
-0000162.png: Acc=78.36%
-0000163.png: Acc=78.11%
-0000164.png: Acc=77.14%
-0000165.png: Acc=76.63%
-0000166.png: Acc=74.90%
-0000167.png: Acc=77.95%
-0000168.png: Acc=78.38%
-0000169.png: Acc=78.78%
-0000170.png: Acc=79.13%
-0000171.png: Acc=80.51%
-0000172.png: Acc=81.01%
-0000173.png: Acc=81.94%
-0000174.png: Acc=81.54%
-0000175.png: Acc=81.09%
-0000176.png: Acc=80.75%
-0000177.png: Acc=81.92%
-0000178.png: Acc=79.11%
-0000179.png: Acc=79.67%
-0000180.png: Acc=80.02%
-0000181.png: Acc=82.13%
-0000182.png: Acc=85.10%
-0000183.png: Acc=87.81%
-0000184.png: Acc=88.63%
-0000185.png: Acc=87.58%
-0000186.png: Acc=87.10%
-0000187.png: Acc=86.32%
-0000188.png: Acc=84.48%
-0000189.png: Acc=82.33%
-0000190.png: Acc=82.26%
-0000191.png: Acc=81.02%
-0000192.png: Acc=80.51%
-0000193.png: Acc=79.44%
-0000194.png: Acc=77.43%
-0000195.png: Acc=74.58%
-0000196.png: Acc=73.95%
-0000197.png: Acc=74.78%
-0000198.png: Acc=76.64%
-0000199.png: Acc=76.40%
-0000200.png: Acc=76.39%
-0000201.png: Acc=77.39%
-0000202.png: Acc=76.77%
-0000203.png: Acc=75.49%
-0000204.png: Acc=77.39%
-0000205.png: Acc=80.71%
-0000206.png: Acc=81.43%
-0000207.png: Acc=83.70%
-0000208.png: Acc=82.14%
-0000209.png: Acc=82.56%
-0000210.png: Acc=80.93%
-0000211.png: Acc=83.02%
-0000212.png: Acc=84.17%
-0000213.png: Acc=83.68%
-0000214.png: Acc=82.78%
-0000215.png: Acc=81.48%
-0000216.png: Acc=81.01%
-0000217.png: Acc=81.88%
-0000218.png: Acc=82.96%
-0000219.png: Acc=84.41%
-0000220.png: Acc=84.53%
-0000221.png: Acc=86.19%
-0000222.png: Acc=85.35%
-0000223.png: Acc=87.85%
-0000224.png: Acc=87.57%
-0000225.png: Acc=85.92%
-0000226.png: Acc=86.39%
-0000227.png: Acc=84.92%
-0000228.png: Acc=86.76%
-0000229.png: Acc=86.21%
-0000230.png: Acc=84.93%
-0000231.png: Acc=84.38%
-0000232.png: Acc=82.15%
-0000233.png: Acc=80.24%
-0000234.png: Acc=78.39%
-0000235.png: Acc=75.43%
-0000236.png: Acc=76.81%
-0000237.png: Acc=77.54%
-0000238.png: Acc=76.67%
-0000239.png: Acc=77.16%
-0000240.png: Acc=79.28%
-0000241.png: Acc=80.63%
-0000242.png: Acc=81.77%
-0000243.png: Acc=81.03%
-0000244.png: Acc=80.89%
-0000245.png: Acc=80.60%
-0000246.png: Acc=82.14%
-0000247.png: Acc=85.12%
-0000248.png: Acc=83.56%
-0000249.png: Acc=82.09%
-0000250.png: Acc=80.17%
-0000251.png: Acc=81.66%
-0000252.png: Acc=81.95%
-0000253.png: Acc=83.09%
-0000254.png: Acc=81.50%
-0000255.png: Acc=80.38%
-0000256.png: Acc=79.37%
-0000257.png: Acc=78.48%
-0000258.png: Acc=80.65%
-0000259.png: Acc=83.01%
-0000260.png: Acc=85.77%
-0000261.png: Acc=87.01%
-0000262.png: Acc=85.76%
-0000263.png: Acc=85.02%
-0000264.png: Acc=83.30%
-0000265.png: Acc=81.56%
-0000266.png: Acc=80.53%
-0000267.png: Acc=77.54%
-0000268.png: Acc=75.42%
-0000269.png: Acc=76.51%
-0000270.png: Acc=78.77%
-0000271.png: Acc=81.46%
-0000272.png: Acc=84.37%
-0000273.png: Acc=85.33%
-0000274.png: Acc=84.47%
-0000275.png: Acc=83.67%
-0000276.png: Acc=85.12%
-0000277.png: Acc=84.61%
-0000278.png: Acc=82.05%
-0000279.png: Acc=81.95%
-0000280.png: Acc=79.74%
-0000281.png: Acc=82.12%
-0000282.png: Acc=84.90%
-0000283.png: Acc=86.75%
-0000284.png: Acc=85.99%
-0000285.png: Acc=85.65%
-0000286.png: Acc=84.55%
-0000287.png: Acc=82.37%
-0000288.png: Acc=77.57%
-0000289.png: Acc=76.20%
-0000290.png: Acc=77.37%
-0000291.png: Acc=78.22%
-0000292.png: Acc=73.01%
-0000293.png: Acc=74.33%
-0000294.png: Acc=76.63%
-0000295.png: Acc=78.81%
-0000296.png: Acc=76.63%
-0000297.png: Acc=73.70%
-0000298.png: Acc=76.67%
-0000299.png: Acc=78.34%
-0000300.png: Acc=83.12%
-0000301.png: Acc=82.01%
-0000302.png: Acc=81.63%
-0000303.png: Acc=79.35%
-0000304.png: Acc=79.84%
-0000305.png: Acc=79.10%
-0000306.png: Acc=78.31%
-0000307.png: Acc=81.53%
-0000308.png: Acc=81.09%
-0000309.png: Acc=83.35%
-0000310.png: Acc=85.96%
-0000311.png: Acc=86.83%
-0000312.png: Acc=87.10%
-0000313.png: Acc=86.94%
-0000314.png: Acc=85.37%
-0000315.png: Acc=82.34%
-0000316.png: Acc=79.18%
-0000317.png: Acc=75.56%
-0000318.png: Acc=77.24%
-0000319.png: Acc=77.58%
-0000320.png: Acc=77.37%
-0000321.png: Acc=75.90%
-0000322.png: Acc=74.97%
-0000323.png: Acc=76.29%
-0000324.png: Acc=79.67%
-0000325.png: Acc=79.82%
-0000326.png: Acc=81.05%
-0000327.png: Acc=85.73%
-0000328.png: Acc=83.81%
-0000329.png: Acc=82.79%
-0000330.png: Acc=77.28%
-0000331.png: Acc=79.62%
-0000332.png: Acc=83.25%
-0000333.png: Acc=86.99%
-0000334.png: Acc=88.28%
-0000335.png: Acc=87.62%
-0000336.png: Acc=85.05%
-0000337.png: Acc=81.44%
-0000338.png: Acc=82.51%
-0000339.png: Acc=83.02%
-0000340.png: Acc=82.08%
-0000341.png: Acc=83.10%
-0000342.png: Acc=86.55%
-0000343.png: Acc=89.54%
-0000344.png: Acc=88.60%
-0000345.png: Acc=87.92%
-0000346.png: Acc=86.96%
-0000347.png: Acc=85.14%
-0000348.png: Acc=85.17%
-0000349.png: Acc=81.16%
-0000350.png: Acc=77.47%
-0000351.png: Acc=76.42%
-0000352.png: Acc=79.54%
-0000353.png: Acc=82.30%
-0000354.png: Acc=83.92%
-0000355.png: Acc=81.36%
-0000356.png: Acc=81.59%
-0000357.png: Acc=82.81%
-0000358.png: Acc=82.73%
-0000359.png: Acc=83.93%
-0000360.png: Acc=85.78%
-0000361.png: Acc=86.26%
-0000362.png: Acc=86.20%
-0000363.png: Acc=86.43%
-0000364.png: Acc=85.03%
-0000365.png: Acc=84.61%
-0000366.png: Acc=80.24%
-0000367.png: Acc=75.49%
-0000368.png: Acc=71.62%
-0000369.png: Acc=74.78%
-0000370.png: Acc=78.15%
-0000371.png: Acc=80.02%
-0000372.png: Acc=78.42%
-0000373.png: Acc=78.11%
-0000374.png: Acc=76.25%
-0000375.png: Acc=78.80%
-0000376.png: Acc=81.00%
-0000377.png: Acc=78.24%
-0000378.png: Acc=77.66%
-0000379.png: Acc=76.95%
-0000380.png: Acc=77.97%
-0000381.png: Acc=79.59%
-0000382.png: Acc=85.24%
-0000383.png: Acc=86.06%
-0000384.png: Acc=87.30%
-0000385.png: Acc=84.97%
-0000386.png: Acc=83.02%
-0000387.png: Acc=80.38%
-0000388.png: Acc=83.08%
-0000389.png: Acc=84.36%
-0000390.png: Acc=85.90%
-0000391.png: Acc=83.84%
-0000392.png: Acc=83.27%
-0000393.png: Acc=84.88%
-0000394.png: Acc=84.19%
-0000395.png: Acc=84.05%
-0000396.png: Acc=83.93%
-0000397.png: Acc=77.85%
-0000398.png: Acc=76.02%
-0000399.png: Acc=73.43%
-0000400.png: Acc=74.59%
-0000401.png: Acc=77.27%
-0000402.png: Acc=80.56%
-0000403.png: Acc=80.10%
-0000404.png: Acc=78.59%
-0000405.png: Acc=79.38%
-0000406.png: Acc=83.55%
-0000407.png: Acc=82.71%
-0000408.png: Acc=84.02%
-0000409.png: Acc=84.38%
-0000410.png: Acc=84.03%
-0000411.png: Acc=80.67%
-0000412.png: Acc=79.58%
-0000413.png: Acc=78.21%
-0000414.png: Acc=73.44%
-0000415.png: Acc=72.49%
-0000416.png: Acc=71.97%
-0000417.png: Acc=71.99%
-0000418.png: Acc=74.00%
-0000419.png: Acc=75.50%
-0000420.png: Acc=78.61%
-0000421.png: Acc=81.76%
-0000422.png: Acc=82.65%
-0000423.png: Acc=83.20%
-0000424.png: Acc=84.09%
-0000425.png: Acc=85.19%
-0000426.png: Acc=83.85%
-0000427.png: Acc=78.87%
-0000428.png: Acc=78.47%
-0000429.png: Acc=82.24%
-0000430.png: Acc=84.30%
-0000431.png: Acc=83.65%
-0000432.png: Acc=83.78%
-0000433.png: Acc=80.78%
-0000434.png: Acc=78.58%
-0000435.png: Acc=81.07%
-0000436.png: Acc=81.47%
-0000437.png: Acc=78.24%
-0000438.png: Acc=75.85%
-0000439.png: Acc=76.02%
-0000440.png: Acc=76.90%
-0000441.png: Acc=79.23%
-0000442.png: Acc=82.86%
-0000443.png: Acc=85.27%
-0000444.png: Acc=85.92%
-0000445.png: Acc=80.89%
-0000446.png: Acc=79.77%
-0000447.png: Acc=78.82%
-0000448.png: Acc=76.68%
-0000449.png: Acc=74.70%
-0000450.png: Acc=80.43%
-0000451.png: Acc=80.82%
-0000452.png: Acc=75.74%
-0000453.png: Acc=74.50%
-0000454.png: Acc=73.58%
-0000455.png: Acc=71.82%
-0000456.png: Acc=70.66%
-0000457.png: Acc=69.94%
-0000458.png: Acc=69.96%
-0000459.png: Acc=70.17%
-0000460.png: Acc=71.93%
-0000461.png: Acc=75.96%
-0000462.png: Acc=77.20%
-0000463.png: Acc=79.14%
-0000464.png: Acc=76.37%
-0000465.png: Acc=74.47%
-0000466.png: Acc=72.13%
-0000467.png: Acc=71.97%
-0000468.png: Acc=67.19%
-0000469.png: Acc=71.36%
-0000470.png: Acc=75.53%
-0000471.png: Acc=76.14%
-0000472.png: Acc=78.50%
-0000473.png: Acc=81.17%
-0000474.png: Acc=84.09%
-0000475.png: Acc=86.16%
-0000476.png: Acc=84.85%
-0000477.png: Acc=84.22%
-0000478.png: Acc=83.14%
-0000479.png: Acc=80.47%
-0000480.png: Acc=78.44%
-0000481.png: Acc=78.37%
-0000482.png: Acc=77.37%
-0000483.png: Acc=75.25%
-0000484.png: Acc=72.15%
-0000485.png: Acc=70.60%
-0000486.png: Acc=72.63%
-0000487.png: Acc=69.78%
-0000488.png: Acc=73.77%
-0000489.png: Acc=75.13%
-0000490.png: Acc=78.23%
-0000491.png: Acc=80.22%
-0000492.png: Acc=81.23%
-0000493.png: Acc=75.52%
-0000494.png: Acc=77.42%
-0000495.png: Acc=80.20%
-0000496.png: Acc=77.45%
-0000497.png: Acc=72.87%
-0000498.png: Acc=78.16%
-0000499.png: Acc=79.13%
-0000500.png: Acc=76.20%
-0000501.png: Acc=74.96%
-0000502.png: Acc=75.84%
-0000503.png: Acc=79.22%
-0000504.png: Acc=80.02%
-0000505.png: Acc=80.64%
-0000506.png: Acc=76.61%
-0000507.png: Acc=80.85%
-0000508.png: Acc=81.36%
-0000509.png: Acc=77.78%
-0000510.png: Acc=74.05%
-0000511.png: Acc=75.45%
-0000512.png: Acc=75.48%
-0000513.png: Acc=76.25%
-0000514.png: Acc=74.54%
-0000515.png: Acc=75.16%
-0000516.png: Acc=78.07%
-0000517.png: Acc=75.89%
-0000518.png: Acc=73.79%
-0000519.png: Acc=79.87%
-0000520.png: Acc=80.79%
-0000521.png: Acc=82.75%
-0000522.png: Acc=80.07%
-0000523.png: Acc=78.93%
-0000524.png: Acc=77.46%
-0000525.png: Acc=74.90%
-0000526.png: Acc=74.63%
-0000527.png: Acc=79.26%
-0000528.png: Acc=81.46%
-0000529.png: Acc=81.26%
-0000530.png: Acc=82.80%
-0000531.png: Acc=78.54%
-0000532.png: Acc=76.57%
-0000533.png: Acc=77.45%
-0000534.png: Acc=72.31%
-0000535.png: Acc=75.83%
-0000536.png: Acc=74.51%
-0000537.png: Acc=77.82%
-0000538.png: Acc=82.04%
-0000539.png: Acc=81.00%
-0000540.png: Acc=76.71%
-0000541.png: Acc=75.08%
-0000542.png: Acc=74.09%
-0000543.png: Acc=75.05%
-0000544.png: Acc=77.56%
-0000545.png: Acc=78.66%
-0000546.png: Acc=79.48%
-0000547.png: Acc=79.43%
-0000548.png: Acc=80.97%
-0000549.png: Acc=79.32%
-0000550.png: Acc=75.86%
-0000551.png: Acc=73.67%
-0000552.png: Acc=75.13%
-0000553.png: Acc=80.81%
-0000554.png: Acc=85.09%
-0000555.png: Acc=82.68%
-0000556.png: Acc=78.29%
-0000557.png: Acc=74.47%
-0000558.png: Acc=73.73%
-0000559.png: Acc=78.14%
-0000560.png: Acc=76.15%
-0000561.png: Acc=78.53%
-0000562.png: Acc=81.75%
-0000563.png: Acc=79.75%
-0000564.png: Acc=75.21%
-0000565.png: Acc=76.79%
-0000566.png: Acc=77.11%
-0000567.png: Acc=76.22%
-0000568.png: Acc=79.67%
-0000569.png: Acc=82.03%
-0000570.png: Acc=83.76%
-0000571.png: Acc=84.01%
-0000572.png: Acc=83.10%
-0000573.png: Acc=81.37%
-0000574.png: Acc=82.97%
-0000575.png: Acc=81.34%
-0000576.png: Acc=81.14%
-0000577.png: Acc=85.83%
-0000578.png: Acc=84.05%
-0000579.png: Acc=86.68%
-0000580.png: Acc=86.53%
-0000581.png: Acc=84.58%
-0000582.png: Acc=81.06%
-0000583.png: Acc=81.00%
-0000584.png: Acc=85.83%
-0000585.png: Acc=88.93%
-0000586.png: Acc=87.43%
-0000587.png: Acc=81.27%
-0000588.png: Acc=82.29%
-0000589.png: Acc=83.56%
-0000590.png: Acc=83.66%
-0000591.png: Acc=85.73%
-0000592.png: Acc=89.77%
-0000593.png: Acc=87.18%
-0000594.png: Acc=83.55%
-0000595.png: Acc=86.70%
-0000596.png: Acc=88.12%
-0000597.png: Acc=86.46%
-0000598.png: Acc=86.80%
-0000599.png: Acc=82.39%
-0000600.png: Acc=78.79%
-0000601.png: Acc=75.58%
-0000602.png: Acc=85.08%
-0000603.png: Acc=84.18%
-0000604.png: Acc=78.91%
-0000605.png: Acc=75.29%
-0000606.png: Acc=75.25%
-0000607.png: Acc=76.52%
-0000608.png: Acc=75.67%
-0000609.png: Acc=76.41%
-0000610.png: Acc=78.99%
-0000611.png: Acc=77.92%
-0000612.png: Acc=76.58%
-0000613.png: Acc=76.35%
-0000614.png: Acc=76.54%
-0000615.png: Acc=76.35%
-0000616.png: Acc=75.32%
-0000617.png: Acc=76.50%
-0000618.png: Acc=79.50%
-0000619.png: Acc=77.43%
-0000620.png: Acc=78.84%
-0000621.png: Acc=82.80%
-0000622.png: Acc=84.54%
-0000623.png: Acc=82.98%
-0000624.png: Acc=82.22%
-0000625.png: Acc=84.70%
-0000626.png: Acc=84.63%
-0000627.png: Acc=81.82%
-0000628.png: Acc=81.09%
-0000629.png: Acc=81.19%
-0000630.png: Acc=83.73%
-0000631.png: Acc=88.03%
-0000632.png: Acc=85.03%
-0000633.png: Acc=81.62%
-0000634.png: Acc=77.60%
-0000635.png: Acc=79.85%
-0000636.png: Acc=79.11%
-0000637.png: Acc=76.90%
-0000638.png: Acc=76.79%
-0000639.png: Acc=79.08%
-0000640.png: Acc=80.79%
-0000641.png: Acc=81.33%
-0000642.png: Acc=79.85%
-0000643.png: Acc=80.08%
-0000644.png: Acc=81.92%
-0000645.png: Acc=84.10%
-0000646.png: Acc=84.63%
-0000647.png: Acc=84.58%
-0000648.png: Acc=84.17%
-0000649.png: Acc=82.67%
-0000650.png: Acc=80.88%
-0000651.png: Acc=84.22%
-0000652.png: Acc=85.52%
-0000653.png: Acc=83.33%
-0000654.png: Acc=80.21%
-0000655.png: Acc=78.72%
-0000656.png: Acc=79.18%
-0000657.png: Acc=78.99%
-0000658.png: Acc=79.15%
-0000659.png: Acc=80.68%
-0000660.png: Acc=82.07%
-0000661.png: Acc=82.40%
-0000662.png: Acc=82.28%
-0000663.png: Acc=81.34%
-0000664.png: Acc=79.13%
-0000665.png: Acc=78.34%
-0000666.png: Acc=76.48%
-0000667.png: Acc=80.19%
-0000668.png: Acc=82.30%
-0000669.png: Acc=79.82%
-0000670.png: Acc=75.54%
-0000671.png: Acc=72.64%
-0000672.png: Acc=72.67%
-0000673.png: Acc=74.03%
-0000674.png: Acc=74.51%
-0000675.png: Acc=74.25%
-0000676.png: Acc=74.96%
-0000677.png: Acc=76.71%
-0000678.png: Acc=79.43%
-0000679.png: Acc=80.72%
-0000680.png: Acc=83.00%
-0000681.png: Acc=83.35%
-0000682.png: Acc=81.05%
-0000683.png: Acc=80.51%
-0000684.png: Acc=77.87%
-0000685.png: Acc=77.67%
-0000686.png: Acc=79.18%
-0000687.png: Acc=81.83%
-0000688.png: Acc=85.07%
-0000689.png: Acc=84.38%
-0000690.png: Acc=83.09%
-0000691.png: Acc=82.48%
-0000692.png: Acc=80.45%
-0000693.png: Acc=83.48%
-0000694.png: Acc=87.30%
-0000695.png: Acc=88.22%
-0000696.png: Acc=87.51%
-0000697.png: Acc=83.90%
-0000698.png: Acc=83.38%
-0000699.png: Acc=80.01%
-0000700.png: Acc=75.54%
-0000701.png: Acc=77.85%
-0000702.png: Acc=80.34%
-0000703.png: Acc=81.16%
-0000704.png: Acc=80.52%
-0000705.png: Acc=82.49%
-0000706.png: Acc=80.21%
-0000707.png: Acc=79.40%
-0000708.png: Acc=78.80%
-0000709.png: Acc=77.88%
-0000710.png: Acc=80.83%
-0000711.png: Acc=81.79%
-0000712.png: Acc=82.56%
-0000713.png: Acc=83.80%
-0000714.png: Acc=84.08%
-0000715.png: Acc=80.02%
-0000716.png: Acc=80.48%
-0000717.png: Acc=81.06%
-0000718.png: Acc=80.40%
-0000719.png: Acc=78.88%
-0000720.png: Acc=80.87%
-0000721.png: Acc=81.07%
-0000722.png: Acc=81.65%
-0000723.png: Acc=80.63%
-0000724.png: Acc=77.33%
-0000725.png: Acc=79.65%
-0000726.png: Acc=81.89%
-0000727.png: Acc=83.01%
-0000728.png: Acc=83.96%
-0000729.png: Acc=85.99%
-0000730.png: Acc=87.75%
-0000731.png: Acc=88.53%
-0000732.png: Acc=88.53%
-0000733.png: Acc=87.77%
-0000734.png: Acc=85.72%
-0000735.png: Acc=85.35%
-0000736.png: Acc=86.37%
-0000737.png: Acc=85.25%
-0000738.png: Acc=86.46%
-0000739.png: Acc=87.20%
-0000740.png: Acc=83.74%
-0000741.png: Acc=84.86%
-0000742.png: Acc=84.85%
-0000743.png: Acc=84.04%
-0000744.png: Acc=83.42%
-0000745.png: Acc=84.72%
-0000746.png: Acc=86.74%
-0000747.png: Acc=83.73%
-0000748.png: Acc=80.68%
-0000749.png: Acc=75.08%
-0000750.png: Acc=75.45%
-0000751.png: Acc=80.86%
-0000752.png: Acc=80.68%
-0000753.png: Acc=80.55%
-0000754.png: Acc=80.07%
-0000755.png: Acc=80.67%
-0000756.png: Acc=81.64%
-0000757.png: Acc=82.83%
-0000758.png: Acc=81.52%
-0000759.png: Acc=82.04%
-0000760.png: Acc=81.55%
-0000761.png: Acc=84.70%
-0000762.png: Acc=85.64%
-0000763.png: Acc=86.15%
-0000764.png: Acc=84.29%
-0000765.png: Acc=80.91%
-0000766.png: Acc=78.51%
-0000767.png: Acc=80.87%
-0000768.png: Acc=80.52%
-0000769.png: Acc=80.99%
-0000770.png: Acc=77.33%
-0000771.png: Acc=75.71%
-0000772.png: Acc=78.92%
-0000773.png: Acc=80.70%
-0000774.png: Acc=82.06%
-0000775.png: Acc=80.67%
-0000776.png: Acc=80.00%
-0000777.png: Acc=82.10%
-0000778.png: Acc=82.79%
-0000779.png: Acc=84.66%
-0000780.png: Acc=88.01%
-0000781.png: Acc=87.86%
-0000782.png: Acc=87.24%
-0000783.png: Acc=87.22%
-0000784.png: Acc=87.31%
-0000785.png: Acc=87.62%
-0000786.png: Acc=86.37%
-0000787.png: Acc=81.49%
-0000788.png: Acc=80.46%
-0000789.png: Acc=81.56%
-0000790.png: Acc=83.07%
-0000791.png: Acc=85.23%
-0000792.png: Acc=83.42%
-0000793.png: Acc=84.06%
-0000794.png: Acc=84.79%
-0000795.png: Acc=83.75%
-0000796.png: Acc=82.70%
-0000797.png: Acc=76.87%
-0000798.png: Acc=74.73%
-0000799.png: Acc=73.09%
-0000800.png: Acc=75.60%
-0000801.png: Acc=75.43%
-0000802.png: Acc=75.22%
-0000803.png: Acc=73.44%
-0000804.png: Acc=74.44%
-0000805.png: Acc=77.13%
-0000806.png: Acc=76.02%
-0000807.png: Acc=76.47%
-0000808.png: Acc=75.45%
-0000809.png: Acc=74.74%
-0000810.png: Acc=77.94%
-0000811.png: Acc=78.15%
-0000812.png: Acc=78.54%
-0000813.png: Acc=81.10%
-0000814.png: Acc=79.49%
-0000815.png: Acc=81.84%
-0000816.png: Acc=82.29%
-0000817.png: Acc=83.30%
-0000818.png: Acc=85.68%
-0000819.png: Acc=88.24%
-0000820.png: Acc=87.51%
-0000821.png: Acc=88.31%
-0000822.png: Acc=88.18%
-0000823.png: Acc=89.25%
-0000824.png: Acc=90.44%
-0000825.png: Acc=90.35%
-0000826.png: Acc=90.05%
-0000827.png: Acc=89.16%
-0000828.png: Acc=87.92%
-0000829.png: Acc=86.61%
-0000830.png: Acc=84.91%
-0000831.png: Acc=80.41%
-0000832.png: Acc=81.25%
-0000833.png: Acc=80.12%
-0000834.png: Acc=80.65%
-0000835.png: Acc=79.35%
-0000836.png: Acc=78.23%
-0000837.png: Acc=77.43%
-0000838.png: Acc=78.93%
-0000839.png: Acc=82.29%
-0000840.png: Acc=79.89%
-0000841.png: Acc=77.96%
-0000842.png: Acc=80.34%
-0000843.png: Acc=80.68%
-0000844.png: Acc=80.12%
-0000845.png: Acc=76.79%
-0000846.png: Acc=78.36%
-0000847.png: Acc=80.51%
-0000848.png: Acc=80.41%
-0000849.png: Acc=82.69%
-0000850.png: Acc=79.14%
-0000851.png: Acc=79.06%
-0000852.png: Acc=80.05%
-0000853.png: Acc=80.73%
-0000854.png: Acc=80.99%
-0000855.png: Acc=81.09%
-0000856.png: Acc=84.03%
-0000857.png: Acc=84.11%
-0000858.png: Acc=83.12%
-0000859.png: Acc=82.04%
-0000860.png: Acc=80.81%
-0000861.png: Acc=81.43%
-0000862.png: Acc=79.73%
-0000863.png: Acc=80.66%
-0000864.png: Acc=79.59%
-0000865.png: Acc=81.07%
-0000866.png: Acc=81.41%
-0000867.png: Acc=79.95%
-0000868.png: Acc=80.73%
-0000869.png: Acc=82.06%
-0000870.png: Acc=82.01%
-0000871.png: Acc=81.42%
-0000872.png: Acc=79.17%
-0000873.png: Acc=76.22%
-0000874.png: Acc=77.38%
-0000875.png: Acc=80.54%
-0000876.png: Acc=79.97%
-0000877.png: Acc=79.11%
-0000878.png: Acc=79.10%
-0000879.png: Acc=79.44%
-0000880.png: Acc=80.25%
-0000881.png: Acc=79.20%
-0000882.png: Acc=78.98%
-0000883.png: Acc=78.32%
-0000884.png: Acc=79.65%
-0000885.png: Acc=79.62%
-0000886.png: Acc=81.17%
-0000887.png: Acc=81.87%
-0000888.png: Acc=81.14%
-0000889.png: Acc=81.15%
-0000890.png: Acc=83.46%
-0000891.png: Acc=83.69%
-0000892.png: Acc=83.05%
-0000893.png: Acc=81.88%
-0000894.png: Acc=82.22%
-0000895.png: Acc=83.07%
-0000896.png: Acc=81.34%
-0000897.png: Acc=80.27%
-0000898.png: Acc=82.15%
-0000899.png: Acc=83.89%
-0000900.png: Acc=82.58%
-0000901.png: Acc=79.63%
-0000902.png: Acc=78.97%
-0000903.png: Acc=77.75%
-0000904.png: Acc=77.36%
-0000905.png: Acc=77.42%
-0000906.png: Acc=79.12%
-0000907.png: Acc=80.79%
-0000908.png: Acc=80.48%
-0000909.png: Acc=78.31%
-0000910.png: Acc=77.85%
-0000911.png: Acc=81.56%
-0000912.png: Acc=81.85%
-0000913.png: Acc=85.97%
-0000914.png: Acc=88.08%
-0000915.png: Acc=88.43%
-0000916.png: Acc=87.37%
-0000917.png: Acc=85.92%
-0000918.png: Acc=84.52%
-0000919.png: Acc=84.55%
-0000920.png: Acc=87.56%
-0000921.png: Acc=87.97%
-0000922.png: Acc=86.77%
-0000923.png: Acc=81.15%
-0000924.png: Acc=78.50%
-0000925.png: Acc=77.97%
-0000926.png: Acc=78.28%
-0000927.png: Acc=79.73%
-0000928.png: Acc=80.68%
-0000929.png: Acc=80.91%
-0000930.png: Acc=80.15%
-0000931.png: Acc=82.00%
-0000932.png: Acc=82.75%
-0000933.png: Acc=85.64%
-0000934.png: Acc=86.65%
-0000935.png: Acc=87.36%
-0000936.png: Acc=85.35%
-0000937.png: Acc=82.98%
-0000938.png: Acc=80.06%
-0000939.png: Acc=79.18%
-0000940.png: Acc=80.92%
-0000941.png: Acc=81.13%
-0000942.png: Acc=81.47%
-0000943.png: Acc=84.85%
-0000944.png: Acc=86.15%
-0000945.png: Acc=84.67%
-0000946.png: Acc=84.79%
-0000947.png: Acc=82.05%
-0000948.png: Acc=80.77%
-0000949.png: Acc=79.15%
-0000950.png: Acc=81.62%
-0000951.png: Acc=80.71%
-0000952.png: Acc=79.74%
-0000953.png: Acc=78.36%
-0000954.png: Acc=79.50%
-0000955.png: Acc=78.26%
-0000956.png: Acc=77.46%
-0000957.png: Acc=75.24%
-0000958.png: Acc=72.21%
-0000959.png: Acc=72.37%
-0000960.png: Acc=71.10%
-0000961.png: Acc=72.16%
-0000962.png: Acc=74.65%
-0000963.png: Acc=75.04%
-0000964.png: Acc=76.20%
-0000965.png: Acc=74.66%
-0000966.png: Acc=70.48%
-0000967.png: Acc=71.93%
-0000968.png: Acc=74.58%
-0000969.png: Acc=78.78%
-0000970.png: Acc=79.07%
-0000971.png: Acc=81.32%
-0000972.png: Acc=81.40%
-0000973.png: Acc=78.07%
-0000974.png: Acc=73.94%
-0000975.png: Acc=74.41%
-0000976.png: Acc=75.90%
-0000977.png: Acc=77.97%
-0000978.png: Acc=85.22%
-0000979.png: Acc=87.90%
-0000980.png: Acc=87.06%
-0000981.png: Acc=82.05%
-0000982.png: Acc=79.84%
-0000983.png: Acc=79.20%
-0000984.png: Acc=82.52%
-0000985.png: Acc=85.23%
-0000986.png: Acc=84.95%
-0000987.png: Acc=80.72%
-0000988.png: Acc=78.77%
-0000989.png: Acc=79.35%
-0000990.png: Acc=82.28%
-0000991.png: Acc=81.71%
-0000992.png: Acc=78.81%
-0000993.png: Acc=73.74%
-0000994.png: Acc=74.03%
-0000995.png: Acc=78.39%
-0000996.png: Acc=80.17%
-0000997.png: Acc=79.32%
-0000998.png: Acc=80.10%
-0000999.png: Acc=79.29%
-0001000.png: Acc=76.20%
-0001001.png: Acc=74.42%
-0001002.png: Acc=75.53%
-0001003.png: Acc=76.40%
-0001004.png: Acc=75.26%
-0001005.png: Acc=72.65%
-0001006.png: Acc=72.99%
-0001007.png: Acc=77.66%
-0001008.png: Acc=76.13%
-0001009.png: Acc=78.11%
-0001010.png: Acc=81.79%
-0001011.png: Acc=84.01%
-0001012.png: Acc=86.43%
-0001013.png: Acc=87.61%
-0001014.png: Acc=86.91%
-0001015.png: Acc=84.77%
-0001016.png: Acc=80.82%
-0001017.png: Acc=80.52%
-0001018.png: Acc=79.85%
-0001019.png: Acc=79.88%
-0001020.png: Acc=81.90%
-0001021.png: Acc=79.10%
-0001022.png: Acc=78.61%
-0001023.png: Acc=77.85%
-0001024.png: Acc=78.82%
-0001025.png: Acc=78.34%
-0001026.png: Acc=76.00%
-0001027.png: Acc=77.57%
-0001028.png: Acc=78.23%
-0001029.png: Acc=77.83%
-0001030.png: Acc=75.24%
-0001031.png: Acc=76.68%
-0001032.png: Acc=78.28%
-0001033.png: Acc=76.23%
-0001034.png: Acc=75.61%
-0001035.png: Acc=76.85%
-0001036.png: Acc=79.86%
-0001037.png: Acc=79.50%
-0001038.png: Acc=81.19%
-0001039.png: Acc=81.35%
-0001040.png: Acc=79.11%
-0001041.png: Acc=79.39%
-0001042.png: Acc=79.76%
-0001043.png: Acc=79.38%
-0001044.png: Acc=81.36%
-0001045.png: Acc=80.87%
-0001046.png: Acc=78.56%
-0001047.png: Acc=77.15%
-0001048.png: Acc=73.27%
-0001049.png: Acc=76.31%
-0001050.png: Acc=80.61%
-0001051.png: Acc=82.71%
-0001052.png: Acc=78.48%
-0001053.png: Acc=77.38%
-0001054.png: Acc=80.40%
-0001055.png: Acc=82.64%
-0001056.png: Acc=84.73%
-0001057.png: Acc=83.27%
-0001058.png: Acc=82.77%
-0001059.png: Acc=80.28%
-0001060.png: Acc=79.63%
-0001061.png: Acc=79.15%
+------------------------------
+Mean IoU       : 17.61%
+Mean Pixel Acc : 55.40%
+------------------------------

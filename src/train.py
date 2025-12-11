@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
 from src.dataset import DualityDataset
-from src.model import UNet
+from src.model_refine import ProgressiveSemanticSegmenter # NEW Model
 from src.utils import CLASS_DEFINITIONS, ID_TO_NAME
 import os
 import json
@@ -26,8 +26,11 @@ def train_model(epochs=10, batch_size=4, lr=1e-4, device='cuda'):
     os.makedirs(checkpoint_dir, exist_ok=True)
 
     # Augmentations
+    # Augmentations
+    # Improved pipeline: Maintain higher res details using RandomCrop
     train_transform = A.Compose([
-        A.Resize(input_h, input_w),
+        A.SmallestMaxSize(max_size=512),
+        A.RandomCrop(height=input_h, width=input_w),
         A.HorizontalFlip(p=0.5),
         A.RandomBrightnessContrast(p=0.2),
         A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
@@ -35,7 +38,7 @@ def train_model(epochs=10, batch_size=4, lr=1e-4, device='cuda'):
     ])
 
     val_transform = A.Compose([
-        A.Resize(input_h, input_w),
+        A.Resize(input_h, input_w), # Validation still uses full image context
         A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
         ToTensorV2(),
     ])
@@ -47,12 +50,23 @@ def train_model(epochs=10, batch_size=4, lr=1e-4, device='cuda'):
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=0)
 
-    # Initialize Model (DINOv2)
-    model = UNet(n_channels=3, n_classes=len(CLASS_DEFINITIONS)) 
+    # Initialize New Refined Model
+    print(">> Initializing PSD-Net (Progressive Semantic Decoder)...")
+    model = ProgressiveSemanticSegmenter(n_classes=len(CLASS_DEFINITIONS)) 
     model.to(device)
+    
+    # Clean Slate Training (No Checkpoint Loading)
+    # checkpoint_path = os.path.join(checkpoint_dir, "best_model.pth")
+    # if os.path.exists(checkpoint_path):
+    #     print(f">> Loading existing checkpoint from {checkpoint_path} for fine-tuning...")
+    #     model.load_state_dict(torch.load(checkpoint_path, map_location=device))
 
     # Optimization
-    criterion = nn.CrossEntropyLoss()
+    # Calculated Inverse Frequency Weights to handle class imbalance
+    # [Background, Trees, Lush Bushes, Dry Grass, Dry Bushes, Ground Clutter, Logs, Rocks, Landscape, Sky]
+    class_weights = torch.tensor([0.0022, 0.1121, 0.1054, 0.0632, 2.4415, 0.6423, 6.0718, 0.5346, 0.0215, 0.0054]).to(device)
+    
+    criterion = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = optim.Adam(model.parameters(), lr=lr)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', patience=2)
 
