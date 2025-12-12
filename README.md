@@ -59,7 +59,7 @@ Most models fail when the terrain gets messy. Ours maintains high confidence eve
 
 | Class-Wise Accuracy (IoU) | Test Set Reliability |
 |:---:|:---:|
-| ![Class Chart](Visual_Report/class_accuracy_chart.png) | ![Histogram](Visual_Report/accuracy_histogram.png) |
+| ![Class Chart](Visual_Report/class_accuracy_chart_v3.png) | ![Histogram](Visual_Report/accuracy_histogram_v3.png) |
 | *Performance on Rocks/Logs improved significantly* | *Consistent accuracy across 1000+ test images* |
 
 ### Qualitative Results (What the Robot Sees)
