@@ -15,7 +15,7 @@ def load_config():
     with open("config.json", "r") as f:
         return json.load(f)
 
-def train_model(epochs=10, batch_size=4, lr=1e-4, device='cuda'):
+def train_model(epochs=15, batch_size=4, lr=1e-4, device='cuda'):
     # Config
     config = load_config()
     input_h, input_w = config["input_size"]
@@ -64,11 +64,11 @@ def train_model(epochs=10, batch_size=4, lr=1e-4, device='cuda'):
     # Optimization
     # Calculated Inverse Frequency Weights to handle class imbalance
     # [Background, Trees, Lush Bushes, Dry Grass, Dry Bushes, Ground Clutter, Logs, Rocks, Landscape, Sky]
-    class_weights = torch.tensor([0.0022, 0.1121, 0.1054, 0.0632, 2.4415, 0.6423, 6.0718, 0.5346, 0.0215, 0.0054]).to(device)
+    class_weights = torch.tensor([0.047, 0.334, 0.324, 0.251, 1.562, 0.801, 2.464, 0.731, 0.146, 0.073]).to(device)
     
     criterion = nn.CrossEntropyLoss(weight=class_weights)
-    optimizer = optim.Adam(model.parameters(), lr=lr)
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min', patience=2)
+    optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
 
     best_val_loss = float('inf')
 
@@ -125,5 +125,5 @@ def train_model(epochs=10, batch_size=4, lr=1e-4, device='cuda'):
 if __name__ == "__main__":
     device = "cuda" if torch.cuda.is_available() else "cpu"
     # DINOv2 is VRAM hungry, start with small batch
-    train_model(epochs=5, batch_size=4, device=device)
+    train_model(epochs=15, batch_size=4, device=device)
 
