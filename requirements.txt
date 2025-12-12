@@ -1,11 +1,12 @@
-torch
-torchvision
+torch>=2.0.0
+torchvision>=0.15.0
 torchaudio
 matplotlib
 numpy
 pillow
 opencv-python
 tqdm
-albumentations
+albumentations>=1.3.0
 datasets
 huggingface_hub
+uv
