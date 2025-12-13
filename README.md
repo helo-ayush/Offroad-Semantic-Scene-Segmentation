@@ -1,5 +1,21 @@
 # Offroad Semantic Scene Segmentation 🚙💨
 
+
+> **Hackathon Submission 2024**  
+> *Robust Terrain Analysis using DINOv2 Backbone & PSD-Net*
+
+![Project Banner](Visual_Report/Visual_Report_V3_0.png)
+
+## 🚧 Problem Statement
+Standard autonomous driving models rely on lane markings and road signs. In unstructured off-road environments, these features don't exist. A UGV (Unmanned Ground Vehicle) needs to differentiate between **Drivable Terrain** (Short Grass, Dirt) and **Non-Drivable Obstacles** (Trees, Rocks, Deep Water). This project solves this by using Semantic Segmentation to classify every pixel of the scene.
+
+## 💻 Tech Stack
+*   **Core Framework**: PyTorch
+*   **Model Backbone**: DINOv2 (Vision Transformer by Meta)
+*   **Augmentation**: Albumentations (RandomCrop, Flip, ColorJitter)
+*   **Data Handling**: NumPy, Pillow
+*   **Application**: Tkinter (GUI), Matplotlib (Visualization)
+
 ## 📌 Overview
 Self-driving cars are great on highways, but off-road environments are a nightmare. There are no lane markings, no stop signs, and "drivable path" is distinct from "tall grass" or "mud". 
 
