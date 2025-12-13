@@ -38,20 +38,21 @@ We replaced the standard U-Net decoder with a **Progressive Upsampling** archite
 ## � Methodology & Training Strategy
 
 ### 1. Solving the "Class Imbalance" Crisis
-Our initial analysis revealed a massive skew in the dataset: **Sky and Background pixels made up 88% of the data**, while critical obstacles like **Logs and Rocks were less than 0.3%**. A standard model would simply ignore the rocks and still get 88% accuracy.
+Our initial analysis revealed a massive skew in the dataset: **Sky and Background pixels made up 88% of the data**, while critical obstacles like **Logs and Rocks were less than 0.3%**.
 
-**The Fix: Inverse Frequency Weighted Loss**
-We calculated specific penalties for each class. If the model misses a "Log", it is penalized **6.0x harder** than if it misses "Sky". Use of this **Weighted Cross Entropy Loss** forced the model to "care" about the rare classes.
+**The Fix: Square-Root Dampened Weighted Loss**
+In V1, we penalized the model 6.0x for missing logs, which made it unstable. For V3, we switched to a **Square Root Dampening** formula. This reduced the penalty to **~2.5x**, striking a perfect balance between detecting rare objects and maintaining high confidence.
 
-### 2. Architecture V2: Progressive Decoding
-Our V1 model used simple upsampling, which turned small rocks into blurry blobs. We completely overhauled the architecture to **PSD-Net (Progressive Semantic Decoder)**.
+### 2. Architecture V3: Progressive Decoding
+We overhauled the architecture to **PSD-Net (Progressive Semantic Decoder)**.
 *   Instead of one giant jump (14x upsample), we now upsample in **4 stages (2x -> 2x -> 2x -> 2x)**.
 *   At each stage, a small neural network refines the boundaries, ensuring jagged rock edges remain sharp.
 
-### 3. Rigid Training Procedure
+### 3. Rigid Training Procedure (V3)
 *   **Backbone**: DINOv2 (Frozen) to retain generic world knowledge.
-*   **Augmentation**: We used **RandomCrop** (not just resize) to ensure the model sees high-resolution details of small objects during training.
-*   **Optimization**: Adam Optimizer with learning rate decay.
+*   **Augmentation**: We used **RandomCrop** (not just resize) to ensure the model sees high-resolution details.
+*   **Optimization**: AdamW + **ReduceLROnPlateau Scheduler** (adapts learning rate when loss plateaus).
+*   **Duration**: Trained for **15 Epochs** to ensure full convergence.
 
 ## �📊 Performance & Evaluation
 
